@@ -4,6 +4,6 @@ class MapquestFacade
     json = MapquestService.location(search)
     result = json[:results][0][:locations][0][:latLng]
 
-    Mapquest.new(result)
+    # Mapquest.new(result)
   end
 end
