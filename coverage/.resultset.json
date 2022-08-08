@@ -1,121 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/facades/yelp_facade.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/facades/mapquest_facade.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/mapquest_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/mapquest.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/facades/open_weather_facade.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          9,
-          49,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/open_weather_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/current_weather.rb": {
         "lines": [
           1,
@@ -131,16 +16,16 @@
           null,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -157,30 +42,13 @@
           null,
           null,
           1,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/hourly_weather.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          48,
-          48,
-          48,
-          48,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -195,36 +63,16 @@
           null,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
           null
         ]
       },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/yelp_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/yelp.rb": {
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/hourly_weather.rb": {
         "lines": [
           1,
           1,
@@ -232,15 +80,24 @@
           null,
           null,
           null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/mapquest.rb": {
+        "lines": [
+          1,
+          1,
+          null,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
+          0,
+          0,
           null,
           null
         ]
@@ -266,6 +123,97 @@
       },
       "/Users/matthewdeming/turing/3Module/sweater_weather/app/serializers/forecast_serializer.rb": {
         "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/facades/open_weather_facade.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/facades/yelp_facade.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/facades/mapquest_facade.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/yelp.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -309,6 +257,73 @@
         "branches": {
         }
       },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/yelp_service.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/open_weather_service.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/mapquest_service.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/Users/matthewdeming/turing/3Module/sweater_weather/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
@@ -330,6 +345,6 @@
         }
       }
     },
-    "timestamp": 1659979117
+    "timestamp": 1659979687
   }
 }

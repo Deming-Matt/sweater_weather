@@ -7,6 +7,7 @@ class YelpFacade
     json = YelpService.food_loc_search(loc, term)
     yelp[:forecast] = forecast.current_weather
     yelp[:restaurant] = json[:businesses]
+    binding.pry
     Yelp.new(yelp)
   end
 end
