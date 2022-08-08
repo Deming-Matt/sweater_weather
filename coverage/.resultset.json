@@ -11,10 +11,8 @@
           1,
           1,
           1,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
           null,
           null
         ]
@@ -133,7 +131,7 @@
           null,
           null,
           1,
-          2,
+          1,
           1,
           1,
           1,
@@ -226,6 +224,27 @@
           null
         ]
       },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/yelp.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/matthewdeming/turing/3Module/sweater_weather/app/mailers/application_mailer.rb": {
         "lines": [
           0,
@@ -247,25 +266,6 @@
       },
       "/Users/matthewdeming/turing/3Module/sweater_weather/app/serializers/forecast_serializer.rb": {
         "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/yelp.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
           0,
           0,
           0,
@@ -330,6 +330,6 @@
         }
       }
     },
-    "timestamp": 1659977339
+    "timestamp": 1659979117
   }
 }
