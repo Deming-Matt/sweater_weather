@@ -3,6 +3,7 @@ class YelpFacade
   def self.food_loc_search(loc, term)
     yelp = Hash.new
     location = MapquestFacade.latlng(loc)
+    binding.pry
     forecast = OpenWeatherFacade.create_forecast_data(location)
     json = YelpService.food_loc_search(loc, term)
     yelp[:forecast] = forecast.current_weather

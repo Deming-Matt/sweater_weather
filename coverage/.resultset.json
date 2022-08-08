@@ -1,81 +1,15 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/controllers/api/v1/munchies_controller.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/facades/yelp_facade.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/matthewdeming/turing/3Module/sweater_weather/app/facades/mapquest_facade.rb": {
         "lines": [
           1,
           null,
           1,
-          1,
-          1,
-          1,
+          2,
+          2,
           null,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/mapquest_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/mapquest.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
+          2,
           null,
           null
         ]
@@ -113,7 +47,7 @@
           null
         ]
       },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/open_weather_service.rb": {
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/facades/yelp_facade.rb": {
         "lines": [
           1,
           null,
@@ -121,16 +55,11 @@
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -187,23 +116,6 @@
           null
         ]
       },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/hourly_weather.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          48,
-          48,
-          48,
-          48,
-          null,
-          null
-        ]
-      },
       "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/forecast.rb": {
         "lines": [
           1,
@@ -223,22 +135,32 @@
           null
         ]
       },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/yelp_service.rb": {
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/hourly_weather.rb": {
         "lines": [
           1,
-          null,
-          1,
           1,
           null,
           null,
+          null,
+          null,
           1,
-          1,
-          1,
-          1,
+          48,
+          48,
+          48,
+          48,
+          null,
+          null
+        ]
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/poros/mapquest.rb": {
+        "lines": [
           1,
           1,
           null,
+          null,
           1,
+          2,
+          2,
           null,
           null
         ]
@@ -253,22 +175,75 @@
           null,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
           null,
-          1,
+          0,
           null,
           null,
           null
         ]
       },
-      "/Users/matthewdeming/turing/3Module/sweater_weather/app/serializers/munchies_serializer.rb": {
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/mapquest_service.rb": {
         "lines": [
           1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/open_weather_service.rb": {
+        "lines": [
+          1,
+          null,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/services/yelp_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
           null
         ]
       },
@@ -284,6 +259,16 @@
       },
       "/Users/matthewdeming/turing/3Module/sweater_weather/app/models/application_record.rb": {
         "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/serializers/munchies_serializer.rb": {
+        "lines": [
+          0,
           0,
           0,
           0
@@ -309,6 +294,14 @@
         "branches": {
         }
       },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/Users/matthewdeming/turing/3Module/sweater_weather/app/controllers/api/v1/forecast_controller.rb": {
         "lines": [
           0,
@@ -321,6 +314,21 @@
           null,
           0,
           0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/matthewdeming/turing/3Module/sweater_weather/app/controllers/api/v1/munchies_controller.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
           0,
           0,
           0
@@ -349,6 +357,6 @@
         }
       }
     },
-    "timestamp": 1659988785
+    "timestamp": 1659993679
   }
 }

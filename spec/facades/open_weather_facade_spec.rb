@@ -13,7 +13,7 @@ RSpec.describe OpenWeatherFacade do
   end
 
   # it 'gets current weather data' do
-  #   current = OpenWeatherFacade.current_weather(latlng)
+  #   current = OpenWeatherFacade.current_weather(latlon)
   #   binding.pry
   #   expect(current).to be_a(CurrentWeather)
   #   expect(current).to have_key(:dt)
@@ -29,7 +29,7 @@ RSpec.describe OpenWeatherFacade do
   # end
   #
   # it 'gets hourly weather data' do
-  #   hourly = OpenWeatherFacade.hourly_weather(latlng)
+  #   hourly = OpenWeatherFacade.hourly_weather(latlon)
   #
   #   expect(hourly).to be_a(HourlyWeather)
   #   expect(hourly[0]).to have_key(:dt)
@@ -39,7 +39,7 @@ RSpec.describe OpenWeatherFacade do
   # end
   #
   # it 'gets daily weather data' do
-  #   daily = OpenWeatherFacade.daily_weather(latlng)
+  #   daily = OpenWeatherFacade.daily_weather(latlon)
   #
   #   expect(daily).to be_a(DailyWeather)
   #   expect(daily[0]).to have_key(:dt)

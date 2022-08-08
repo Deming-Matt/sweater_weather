@@ -9,20 +9,20 @@ class OpenWeatherFacade
     Forecast.new(forecast)
   end
 
-  # def self.current_weather(latlng)
-  #   json = OpenWeatherService.forecast(latlng)
+  # def self.current_weather(latlon)
+  #   json = OpenWeatherService.forecast(latlon)
   #   result = json[:current]
   #   CurrentWeather.new(result)
   # end
   #
-  # def self.hourly_weather(latlng)
-  #   json = OpenWeatherService.forecast(latlng)
+  # def self.hourly_weather(latlon)
+  #   json = OpenWeatherService.forecast(latlon)
   #   result = json[:hourly][0..7]
   #   HourlyWeather.new(result)
   # end
   #
-  # def self.daily_weather(latlng)
-  #   json = OpenWeatherService.forecast(latlng)
+  # def self.daily_weather(latlon)
+  #   json = OpenWeatherService.forecast(latlon)
   #   result = json[:daily][0..4]
   #   DailyWeather.new(result)
   # end
