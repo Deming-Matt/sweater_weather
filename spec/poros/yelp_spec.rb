@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Yelp do
   it 'exists and has attributes' do
-    pizza = {
+    business = {
       :id=>"3kjN8Dlib5lWS7v7sI_gHQ",
       :alias=>"scileppis-at-the-old-stone-church-castle-rock",
       :name=>"Scileppi's at The Old Stone Church",
@@ -28,7 +28,9 @@ RSpec.describe Yelp do
       :phone=>"+13036889000",
       :display_phone=>"(303) 688-9000",
       :distance=>2157.3759898949324}
+    pizza_search = Yelp.new(business)
 
+    expect(pizza_search).to be_a(Yelp)
 
   end
 end
