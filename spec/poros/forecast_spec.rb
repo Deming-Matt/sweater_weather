@@ -91,7 +91,7 @@ RSpec.describe Forecast do
             "rain": 4.97,
             "uvi": 9.8
         }
-        
+
     cw = CurrentWeather.new(current)
     dw = [DailyWeather.new(daily)]
     hw = [HourlyWeather.new(hourly)]
@@ -103,6 +103,7 @@ RSpec.describe Forecast do
     expect(forecast.id).to eq("null")
     expect(forecast.type).to eq("forecast")
     expect(forecast.current_weather).to be_a CurrentWeather
+    expect(forecast.current_weather.conditions).to eq("few clouds")
     expect(forecast.daily_weather[0]).to be_a DailyWeather
     expect(forecast.hourly_weather[0]).to be_a HourlyWeather
   end
