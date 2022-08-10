@@ -4,7 +4,7 @@ RSpec.describe YelpFacade do
   location = "denver, co"
   term = "pizza"
 
-  it 'creates Yelp search data' do
+  it 'creates Yelp search data', :vcr do
     results = YelpFacade.food_loc_search(location, term)
 
     expect(results).to be_a(Yelp)

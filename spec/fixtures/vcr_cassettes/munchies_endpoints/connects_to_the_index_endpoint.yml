@@ -1,0 +1,427 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=<key>&location=castlerock,co
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 10 Aug 2022 20:23:43 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1041'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 10 Aug 2022 20:23:43 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=594CF53D6399E8DEE57BD6BC37C2F1C4; Path=/; HttpOnly
+      Status:
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"castlerock,co"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Castle
+        Rock","adminArea5Type":"City","adminArea4":"Douglas County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282030244","unknownInput":"","type":"s","latLng":{"lat":39.375367,"lng":-104.859911},"displayLatLng":{"lat":39.375367,"lng":-104.859911},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<key>&type=map&size=225,160&locations=39.375367,-104.859911|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-82735648"}]}]}'
+  recorded_at: Wed, 10 Aug 2022 20:23:43 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/onecall?appid=<appid>&exclude=minutely,alerts&lat=39.375367&lon=-104.859911&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 10 Aug 2022 20:23:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '17463'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/onecall?exclude=minutely%2Calerts&lat=39.38&lon=-104.86&units=imperial"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"lat":39.3754,"lon":-104.8599,"timezone":"America/Denver","timezone_offset":-21600,"current":{"dt":1660163023,"sunrise":1660133259,"sunset":1660183322,"temp":87.85,"feels_like":85.26,"pressure":1022,"humidity":28,"dew_point":50.72,"uvi":9.75,"clouds":0,"visibility":10000,"wind_speed":8.01,"wind_deg":175,"wind_gust":13,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}]},"hourly":[{"dt":1660161600,"temp":87.85,"feels_like":85.26,"pressure":1022,"humidity":28,"dew_point":50.72,"uvi":9.75,"clouds":0,"visibility":10000,"wind_speed":11.79,"wind_deg":148,"wind_gust":9.1,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660165200,"temp":87.39,"feels_like":84.67,"pressure":1021,"humidity":27,"dew_point":49.33,"uvi":7.8,"clouds":0,"visibility":10000,"wind_speed":12.01,"wind_deg":145,"wind_gust":8.84,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660168800,"temp":86.86,"feels_like":84.06,"pressure":1020,"humidity":26,"dew_point":47.89,"uvi":5.3,"clouds":0,"visibility":10000,"wind_speed":12.68,"wind_deg":142,"wind_gust":9.42,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660172400,"temp":85.77,"feels_like":83.08,"pressure":1018,"humidity":26,"dew_point":46.96,"uvi":2.86,"clouds":0,"visibility":10000,"wind_speed":14.27,"wind_deg":146,"wind_gust":11.7,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660176000,"temp":83.84,"feels_like":81.61,"pressure":1017,"humidity":27,"dew_point":46.33,"uvi":1.1,"clouds":0,"visibility":10000,"wind_speed":13.71,"wind_deg":153,"wind_gust":13.33,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660179600,"temp":79.56,"feels_like":79.56,"pressure":1016,"humidity":32,"dew_point":46.26,"uvi":0.26,"clouds":0,"visibility":10000,"wind_speed":12.12,"wind_deg":154,"wind_gust":19.8,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660183200,"temp":73.58,"feels_like":72.43,"pressure":1017,"humidity":38,"dew_point":45.73,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":10.38,"wind_deg":163,"wind_gust":21.99,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660186800,"temp":70.95,"feels_like":69.67,"pressure":1019,"humidity":41,"dew_point":45.12,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":10.45,"wind_deg":175,"wind_gust":23.89,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660190400,"temp":70.12,"feels_like":68.81,"pressure":1019,"humidity":42,"dew_point":44.82,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":12.21,"wind_deg":175,"wind_gust":27.67,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660194000,"temp":69.76,"feels_like":68.41,"pressure":1020,"humidity":42,"dew_point":44.82,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":13.89,"wind_deg":175,"wind_gust":30.58,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660197600,"temp":68.83,"feels_like":67.48,"pressure":1020,"humidity":44,"dew_point":45.05,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":13.44,"wind_deg":179,"wind_gust":28.97,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660201200,"temp":67.03,"feels_like":65.64,"pressure":1020,"humidity":47,"dew_point":45.36,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":12.33,"wind_deg":184,"wind_gust":23.53,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660204800,"temp":65.86,"feels_like":64.45,"pressure":1020,"humidity":49,"dew_point":45.09,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":11.74,"wind_deg":185,"wind_gust":21.68,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660208400,"temp":65.26,"feels_like":63.79,"pressure":1019,"humidity":49,"dew_point":44.83,"uvi":0,"clouds":2,"visibility":10000,"wind_speed":10.87,"wind_deg":188,"wind_gust":20.09,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660212000,"temp":64.65,"feels_like":63.18,"pressure":1019,"humidity":50,"dew_point":44.58,"uvi":0,"clouds":2,"visibility":10000,"wind_speed":10.16,"wind_deg":189,"wind_gust":18.41,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660215600,"temp":63.82,"feels_like":62.31,"pressure":1019,"humidity":51,"dew_point":44.49,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":9.17,"wind_deg":193,"wind_gust":15.99,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660219200,"temp":63.09,"feels_like":61.54,"pressure":1020,"humidity":52,"dew_point":44.28,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":8.52,"wind_deg":197,"wind_gust":12.97,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660222800,"temp":64.35,"feels_like":62.92,"pressure":1020,"humidity":52,"dew_point":45.34,"uvi":0.26,"clouds":2,"visibility":10000,"wind_speed":7.96,"wind_deg":203,"wind_gust":11.88,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660226400,"temp":70.59,"feels_like":69.37,"pressure":1019,"humidity":43,"dew_point":46.02,"uvi":1.1,"clouds":2,"visibility":10000,"wind_speed":6.67,"wind_deg":210,"wind_gust":10,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660230000,"temp":75.92,"feels_like":74.86,"pressure":1018,"humidity":35,"dew_point":45.73,"uvi":2.81,"clouds":1,"visibility":10000,"wind_speed":5.95,"wind_deg":193,"wind_gust":7.4,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660233600,"temp":80.13,"feels_like":79.34,"pressure":1017,"humidity":31,"dew_point":46.06,"uvi":5.22,"clouds":1,"visibility":10000,"wind_speed":7.4,"wind_deg":173,"wind_gust":7.7,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660237200,"temp":83.3,"feels_like":81.27,"pressure":1016,"humidity":28,"dew_point":46,"uvi":7.77,"clouds":1,"visibility":10000,"wind_speed":8.21,"wind_deg":160,"wind_gust":7.92,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660240800,"temp":85.03,"feels_like":82.47,"pressure":1015,"humidity":26,"dew_point":45.81,"uvi":9.73,"clouds":1,"visibility":10000,"wind_speed":9.1,"wind_deg":148,"wind_gust":9.64,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660244400,"temp":86.49,"feels_like":83.62,"pressure":1015,"humidity":25,"dew_point":45.61,"uvi":10.47,"clouds":0,"visibility":10000,"wind_speed":10,"wind_deg":145,"wind_gust":9.86,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660248000,"temp":87.71,"feels_like":84.51,"pressure":1014,"humidity":23,"dew_point":45.09,"uvi":9.73,"clouds":0,"visibility":10000,"wind_speed":10.58,"wind_deg":148,"wind_gust":9.31,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660251600,"temp":88.32,"feels_like":84.97,"pressure":1013,"humidity":22,"dew_point":44.19,"uvi":7.78,"clouds":0,"visibility":10000,"wind_speed":11.18,"wind_deg":148,"wind_gust":8.66,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660255200,"temp":88.09,"feels_like":84.76,"pressure":1012,"humidity":22,"dew_point":43.23,"uvi":5.24,"clouds":0,"visibility":10000,"wind_speed":14.2,"wind_deg":147,"wind_gust":9.53,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660258800,"temp":86.79,"feels_like":83.62,"pressure":1012,"humidity":22,"dew_point":42.22,"uvi":2.82,"clouds":0,"visibility":10000,"wind_speed":15.48,"wind_deg":151,"wind_gust":11.63,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660262400,"temp":84.61,"feels_like":81.99,"pressure":1012,"humidity":24,"dew_point":42.53,"uvi":1.08,"clouds":0,"visibility":10000,"wind_speed":14.79,"wind_deg":153,"wind_gust":14.54,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660266000,"temp":80.8,"feels_like":79.54,"pressure":1013,"humidity":28,"dew_point":43.83,"uvi":0.25,"clouds":0,"visibility":10000,"wind_speed":13.09,"wind_deg":151,"wind_gust":21.83,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0.02},{"dt":1660269600,"temp":74.17,"feels_like":72.84,"pressure":1015,"humidity":33,"dew_point":42.26,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":11.3,"wind_deg":155,"wind_gust":23.06,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660273200,"temp":71.42,"feels_like":69.82,"pressure":1016,"humidity":33,"dew_point":40.33,"uvi":0,"clouds":3,"visibility":10000,"wind_speed":11.39,"wind_deg":167,"wind_gust":26.84,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660276800,"temp":69.76,"feels_like":68.04,"pressure":1017,"humidity":34,"dew_point":39.29,"uvi":0,"clouds":18,"visibility":10000,"wind_speed":11.25,"wind_deg":177,"wind_gust":27.67,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02n"}],"pop":0},{"dt":1660280400,"temp":69.08,"feels_like":67.33,"pressure":1017,"humidity":35,"dew_point":39,"uvi":0,"clouds":33,"visibility":10000,"wind_speed":11.05,"wind_deg":179,"wind_gust":25.17,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03n"}],"pop":0},{"dt":1660284000,"temp":68.27,"feels_like":66.49,"pressure":1017,"humidity":36,"dew_point":39.52,"uvi":0,"clouds":44,"visibility":10000,"wind_speed":10.6,"wind_deg":183,"wind_gust":21.18,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03n"}],"pop":0},{"dt":1660287600,"temp":67.44,"feels_like":65.68,"pressure":1017,"humidity":38,"dew_point":39.79,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":10.71,"wind_deg":188,"wind_gust":19.64,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1660291200,"temp":66.9,"feels_like":65.12,"pressure":1017,"humidity":39,"dew_point":39.94,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":9.89,"wind_deg":194,"wind_gust":18.01,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1660294800,"temp":65.97,"feels_like":64.15,"pressure":1017,"humidity":40,"dew_point":40.24,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":8.72,"wind_deg":197,"wind_gust":14.32,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1660298400,"temp":64.94,"feels_like":63.1,"pressure":1017,"humidity":42,"dew_point":40.62,"uvi":0,"clouds":86,"visibility":10000,"wind_speed":7.25,"wind_deg":205,"wind_gust":9.42,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1660302000,"temp":63.68,"feels_like":61.86,"pressure":1018,"humidity":45,"dew_point":40.91,"uvi":0,"clouds":70,"visibility":10000,"wind_speed":5.57,"wind_deg":219,"wind_gust":5.41,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04n"}],"pop":0},{"dt":1660305600,"temp":62.47,"feels_like":60.67,"pressure":1018,"humidity":48,"dew_point":41.34,"uvi":0,"clouds":58,"visibility":10000,"wind_speed":3.78,"wind_deg":242,"wind_gust":3.78,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04n"}],"pop":0},{"dt":1660309200,"temp":65.46,"feels_like":63.97,"pressure":1019,"humidity":48,"dew_point":44.04,"uvi":0.25,"clouds":0,"visibility":10000,"wind_speed":4.09,"wind_deg":244,"wind_gust":4.52,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660312800,"temp":70.99,"feels_like":69.67,"pressure":1018,"humidity":40,"dew_point":44.51,"uvi":1.07,"clouds":0,"visibility":10000,"wind_speed":4.16,"wind_deg":253,"wind_gust":6.2,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660316400,"temp":75.81,"feels_like":74.79,"pressure":1017,"humidity":36,"dew_point":45.82,"uvi":2.76,"clouds":0,"visibility":10000,"wind_speed":4.34,"wind_deg":296,"wind_gust":7.58,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660320000,"temp":79.07,"feels_like":79.07,"pressure":1016,"humidity":33,"dew_point":46.35,"uvi":5.1,"clouds":0,"visibility":10000,"wind_speed":7.29,"wind_deg":347,"wind_gust":9.31,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660323600,"temp":81.36,"feels_like":80.04,"pressure":1016,"humidity":30,"dew_point":46.13,"uvi":7.61,"clouds":0,"visibility":10000,"wind_speed":7.43,"wind_deg":1,"wind_gust":7.78,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660327200,"temp":83.43,"feels_like":81.37,"pressure":1015,"humidity":28,"dew_point":45.9,"uvi":9.53,"clouds":0,"visibility":10000,"wind_speed":6.98,"wind_deg":14,"wind_gust":6.15,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660330800,"temp":85.35,"feels_like":82.74,"pressure":1015,"humidity":26,"dew_point":45.68,"uvi":10.2,"clouds":0,"visibility":10000,"wind_speed":6.06,"wind_deg":23,"wind_gust":5.01,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0}],"daily":[{"dt":1660158000,"sunrise":1660133259,"sunset":1660183322,"moonrise":1660182000,"moonset":1660125540,"moon_phase":0.45,"temp":{"day":87.28,"min":62.98,"max":87.85,"night":69.76,"eve":79.56,"morn":64.67},"feels_like":{"day":84.56,"night":68.41,"eve":79.56,"morn":63.57},"pressure":1021,"humidity":27,"dew_point":49.24,"wind_speed":14.27,"wind_deg":146,"wind_gust":30.58,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":10.48},{"dt":1660244400,"sunrise":1660219716,"sunset":1660269648,"moonrise":1660270920,"moonset":1660216620,"moon_phase":0.5,"temp":{"day":86.49,"min":63.09,"max":88.32,"night":69.08,"eve":80.8,"morn":64.35},"feels_like":{"day":83.62,"night":67.33,"eve":79.54,"morn":62.92},"pressure":1015,"humidity":25,"dew_point":45.61,"wind_speed":15.48,"wind_deg":151,"wind_gust":28.97,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":0,"pop":0.02,"uvi":10.47},{"dt":1660330800,"sunrise":1660306172,"sunset":1660355973,"moonrise":1660359360,"moonset":1660307760,"moon_phase":0.53,"temp":{"day":85.35,"min":62.47,"max":88.7,"night":70.48,"eve":83.34,"morn":65.46},"feels_like":{"day":82.74,"night":68.97,"eve":81.39,"morn":63.97},"pressure":1015,"humidity":26,"dew_point":45.68,"wind_speed":10.71,"wind_deg":188,"wind_gust":21.18,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":0,"pop":0.01,"uvi":10.2},{"dt":1660417200,"sunrise":1660392628,"sunset":1660442298,"moonrise":1660447560,"moonset":1660398720,"moon_phase":0.56,"temp":{"day":85.55,"min":64.04,"max":90.45,"night":73.38,"eve":88.63,"morn":64.04},"feels_like":{"day":82.9,"night":72.3,"eve":85.15,"morn":62.35},"pressure":1014,"humidity":26,"dew_point":46.13,"wind_speed":10,"wind_deg":127,"wind_gust":12.86,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":0,"pop":0.36,"rain":0.15,"uvi":10.08},{"dt":1660503600,"sunrise":1660479085,"sunset":1660528620,"moonrise":1660535520,"moonset":1660489500,"moon_phase":0.6,"temp":{"day":86,"min":63.32,"max":91.02,"night":74.32,"eve":88.39,"morn":63.32},"feels_like":{"day":83.3,"night":73.04,"eve":84.87,"morn":62.26},"pressure":1012,"humidity":26,"dew_point":46.24,"wind_speed":12.3,"wind_deg":130,"wind_gust":16.78,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":7,"pop":0.16,"uvi":10.06},{"dt":1660590000,"sunrise":1660565541,"sunset":1660614942,"moonrise":1660623360,"moonset":1660580040,"moon_phase":0.64,"temp":{"day":83.25,"min":62.46,"max":87.57,"night":63.73,"eve":84.61,"morn":62.46},"feels_like":{"day":81.5,"night":63.72,"eve":82.06,"morn":61.32},"pressure":1010,"humidity":31,"dew_point":48.49,"wind_speed":11.25,"wind_deg":114,"wind_gust":18.07,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":2,"pop":0.67,"rain":2.24,"uvi":11},{"dt":1660676400,"sunrise":1660651997,"sunset":1660701263,"moonrise":1660711260,"moonset":1660670460,"moon_phase":0.67,"temp":{"day":76.77,"min":59.68,"max":76.77,"night":62.24,"eve":59.68,"morn":60.44},"feels_like":{"day":76.3,"night":62.02,"eve":59.58,"morn":59.9},"pressure":1013,"humidity":46,"dew_point":53.6,"wind_speed":5.12,"wind_deg":344,"wind_gust":11.48,"weather":[{"id":502,"main":"Rain","description":"heavy
+        intensity rain","icon":"10d"}],"clouds":76,"pop":1,"rain":31.57,"uvi":11},{"dt":1660762800,"sunrise":1660738453,"sunset":1660787583,"moonrise":1660799220,"moonset":1660760760,"moon_phase":0.7,"temp":{"day":74.01,"min":59.11,"max":77.95,"night":66.56,"eve":77.23,"morn":59.11},"feels_like":{"day":73.42,"night":65.32,"eve":76.3,"morn":58.8},"pressure":1016,"humidity":49,"dew_point":52.88,"wind_speed":14.18,"wind_deg":36,"wind_gust":16.91,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":71,"pop":1,"rain":0.67,"uvi":11}]}'
+  recorded_at: Wed, 10 Aug 2022 20:23:43 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?location=castlerock,co&term=pizza
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Authorization:
+      - "<Authorization>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Dailylimit:
+      - '5000'
+      Server:
+      - envoy
+      Ratelimit-Remaining:
+      - '4971'
+      X-Routing-Service:
+      - routing-canary--uswest2-7f9b56ff8-fn9bb; site=public_api_v3
+      Ratelimit-Resettime:
+      - '2022-08-11T00:00:00+00:00'
+      X-Zipkin-Id:
+      - e921dfb28ffcca93
+      X-B3-Sampled:
+      - '0'
+      X-Cloudmap:
+      - routing_uswest2
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-69-152-12-uswest2bprod
+      X-Extlb:
+      - 10-69-152-12-uswest2bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 10 Aug 2022 20:23:44 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-den8265-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "3kjN8Dlib5lWS7v7sI_gHQ", "alias": "scileppis-at-the-old-stone-church-castle-rock",
+        "name": "Scileppi''s at The Old Stone Church", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ptpyfgGx2VTsjPIzhQvT8Q/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/scileppis-at-the-old-stone-church-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 332, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "pizza", "title": "Pizza"}], "rating": 4.5, "coordinates": {"latitude":
+        39.37199, "longitude": -104.86114}, "transactions": ["delivery"], "price":
+        "$$", "location": {"address1": "210 Third St", "address2": "", "address3":
+        null, "city": "Castle Rock", "zip_code": "80104", "country": "US", "state":
+        "CO", "display_address": ["210 Third St", "Castle Rock, CO 80104"]}, "phone":
+        "+13036889000", "display_phone": "(303) 688-9000", "distance": 2157.3759898949324},
+        {"id": "-Av9drbCjlK9-lP3dxjRwg", "alias": "212-pizza-company-castle-rock",
+        "name": "212 Pizza Company", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/COrTHcCz4PHuBh189Qzhdw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/212-pizza-company-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 248, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}], "rating": 4.5, "coordinates": {"latitude":
+        39.3762741088867, "longitude": -104.829078674316}, "transactions": ["delivery"],
+        "price": "$$", "location": {"address1": "848 N Ridge Rd", "address2": "Ste
+        F", "address3": "", "city": "Castle Rock", "zip_code": "80104", "country":
+        "US", "state": "CO", "display_address": ["848 N Ridge Rd", "Ste F", "Castle
+        Rock, CO 80104"]}, "phone": "+13036889800", "display_phone": "(303) 688-9800",
+        "distance": 3556.44355600167}, {"id": "MFW37oLIMy6LW5k9pymZmg", "alias": "granellis-pizzeria-castle-rock",
+        "name": "Granelli''s Pizzeria", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Rf0KhF1k6fHXfWfytl7v5A/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/granellis-pizzeria-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 226, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 3.5, "coordinates": {"latitude": 39.3699799, "longitude": -104.8604126},
+        "transactions": ["delivery"], "price": "$$", "location": {"address1": "21
+        Wilcox St", "address2": "", "address3": "", "city": "Castle Rock", "zip_code":
+        "80104", "country": "US", "state": "CO", "display_address": ["21 Wilcox St",
+        "Castle Rock, CO 80104"]}, "phone": "+13038141853", "display_phone": "(303)
+        814-1853", "distance": 2390.4443151464043}, {"id": "LYQNm3h2iV6GWx3TzJqmIg",
+        "alias": "zabbracci-pizza-pasta-and-tap-house-castle-rock-2", "name": "Z''Abbracci
+        - Pizza, Pasta & Tap House", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/hLowi8uqCRe3cbhjRGrg3w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/zabbracci-pizza-pasta-and-tap-house-castle-rock-2?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 225, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}, {"alias": "beerbar", "title": "Beer
+        Bar"}], "rating": 3.5, "coordinates": {"latitude": 39.37282, "longitude":
+        -104.85963}, "transactions": ["delivery", "pickup"], "price": "$$", "location":
+        {"address1": "312 Wilcox St", "address2": "", "address3": null, "city": "Castle
+        Rock", "zip_code": "80104", "country": "US", "state": "CO", "display_address":
+        ["312 Wilcox St", "Castle Rock, CO 80104"]}, "phone": "+17205354151", "display_phone":
+        "(720) 535-4151", "distance": 2098.4773376219823}, {"id": "jGvlExzHyCAyrXs3L-AQAw",
+        "alias": "sliceworks-castle-rock", "name": "Sliceworks", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/dMGO4nHLAj0spvnBav8Scg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/sliceworks-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 20, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "italian", "title": "Italian"}, {"alias": "salad", "title": "Salad"}], "rating":
+        3.5, "coordinates": {"latitude": 39.37199, "longitude": -104.86114}, "transactions":
+        ["delivery"], "location": {"address1": "210 3rd St", "address2": "", "address3":
+        null, "city": "Castle Rock", "zip_code": "80104", "country": "US", "state":
+        "CO", "display_address": ["210 3rd St", "Castle Rock, CO 80104"]}, "phone":
+        "+13036889000", "display_phone": "(303) 688-9000", "distance": 2157.3759898949324},
+        {"id": "-51oUU5kZVlS29sKy6tMmg", "alias": "stumpys-new-york-style-pizza-castle-rock",
+        "name": "Stumpy''s New York Style Pizza", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ABzb2awh7H8pHjhci2ontQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/stumpys-new-york-style-pizza-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 147, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "sportsbars", "title": "Sports Bars"}, {"alias": "burgers", "title":
+        "Burgers"}], "rating": 3.5, "coordinates": {"latitude": 39.3676052, "longitude":
+        -104.8610398}, "transactions": ["delivery"], "price": "$$", "location": {"address1":
+        "138 S Wilcox St", "address2": "", "address3": "", "city": "Castle Rock",
+        "zip_code": "80104", "country": "US", "state": "CO", "display_address": ["138
+        S Wilcox St", "Castle Rock, CO 80104"]}, "phone": "+13038141800", "display_phone":
+        "(303) 814-1800", "distance": 2640.5114974801127}, {"id": "AeeGvIfS5qzf7aKyFmHyWw",
+        "alias": "parrys-pizzeria-and-taphouse-castle-rock-2", "name": "Parry''s Pizzeria
+        & Taphouse", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/owqY7_hjuhn9h4UDGWt8QA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/parrys-pizzeria-and-taphouse-castle-rock-2?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 275, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}, {"alias": "beerbar", "title": "Beer
+        Bar"}], "rating": 3.0, "coordinates": {"latitude": 39.4148552065311, "longitude":
+        -104.862349518246}, "transactions": ["delivery", "pickup"], "price": "$$",
+        "location": {"address1": "5650 Allen Way", "address2": "", "address3": "",
+        "city": "Castle Rock", "zip_code": "80108", "country": "US", "state": "CO",
+        "display_address": ["5650 Allen Way", "Castle Rock, CO 80108"]}, "phone":
+        "+13038148686", "display_phone": "(303) 814-8686", "distance": 2663.637814808253},
+        {"id": "pU05-oAPWoaMM6npHNaUzQ", "alias": "the-old-north-end-castle-rock",
+        "name": "The Old North End", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/-JGW8XU2o732v769EUa5Yw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-old-north-end-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 80, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "italian", "title": "Italian"}, {"alias": "salad", "title": "Salad"}], "rating":
+        4.0, "coordinates": {"latitude": 39.4026957990016, "longitude": -104.880767376097},
+        "transactions": [], "price": "$$", "location": {"address1": "3980 Limelight
+        Ave", "address2": "Unit A", "address3": null, "city": "Castle Rock", "zip_code":
+        "80109", "country": "US", "state": "CO", "display_address": ["3980 Limelight
+        Ave", "Unit A", "Castle Rock, CO 80109"]}, "phone": "+17204854077", "display_phone":
+        "(720) 485-4077", "distance": 1820.0806443778324}, {"id": "FVGF_LyPHHS6cUz0yZaKDQ",
+        "alias": "pinos-italian-kitchen-and-bar-castle-pines-5", "name": "Pino''s
+        Italian Kitchen & Bar", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HueuEAu9f5oevlyV1M3L6w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/pinos-italian-kitchen-and-bar-castle-pines-5?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 367, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "pizza", "title": "Pizza"}, {"alias": "steak", "title": "Steakhouses"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.4705494, "longitude": -104.8799259},
+        "transactions": ["delivery", "pickup"], "price": "$$", "location": {"address1":
+        "361 Village Square Ln", "address2": "Ste 130", "address3": "", "city": "Castle
+        Pines", "zip_code": "80108", "country": "US", "state": "CO", "display_address":
+        ["361 Village Square Ln", "Ste 130", "Castle Pines, CO 80108"]}, "phone":
+        "+13036633421", "display_phone": "(303) 663-3421", "distance": 8921.25469273528},
+        {"id": "SVofal-VfjfjPsodqx7j3A", "alias": "great-divide-brewery-and-roadhouse-castle-rock",
+        "name": "Great Divide Brewery & Roadhouse", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/8ZiLQukQGnQeCHgHKfhugA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/great-divide-brewery-and-roadhouse-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 234, "categories": [{"alias": "breweries", "title": "Breweries"},
+        {"alias": "newamerican", "title": "American (New)"}], "rating": 4.0, "coordinates":
+        {"latitude": 39.371617, "longitude": -104.860507}, "transactions": ["delivery",
+        "pickup"], "price": "$$", "location": {"address1": "215 Wilcox St", "address2":
+        null, "address3": "", "city": "Castle Rock", "zip_code": "80104", "country":
+        "US", "state": "CO", "display_address": ["215 Wilcox St", "Castle Rock, CO
+        80104"]}, "phone": "+13039555788", "display_phone": "(303) 955-5788", "distance":
+        2211.306220330586}, {"id": "WVzDNRCAojEFAtvJR8y0pg", "alias": "artisan-pizza-parker-2",
+        "name": "Artisan Pizza", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/o5PjW_lNLtUsZ7vctABe0w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/artisan-pizza-parker-2?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 147, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.4924736022949, "longitude":
+        -104.757041931152}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "12311 Pine Bluffs Way", "address2": "Ste 107", "address3": "",
+        "city": "Parker", "zip_code": "80134", "country": "US", "state": "CO", "display_address":
+        ["12311 Pine Bluffs Way", "Ste 107", "Parker, CO 80134"]}, "phone": "+13038400518",
+        "display_phone": "(303) 840-0518", "distance": 14646.458605665837}, {"id":
+        "0B6wCOwRvwz-QxTLVLQcFg", "alias": "manna-restaurant-castle-rock", "name":
+        "Manna Restaurant", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/SUGylRwEWd5viMFTun1mhw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/manna-restaurant-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 302, "categories": [{"alias": "newamerican", "title": "American
+        (New)"}], "rating": 4.5, "coordinates": {"latitude": 39.4054656198158, "longitude":
+        -104.884397229376}, "transactions": ["delivery"], "price": "$", "location":
+        {"address1": "2350 Meadows Blvd", "address2": "", "address3": "", "city":
+        "Castle Rock", "zip_code": "80109", "country": "US", "state": "CO", "display_address":
+        ["2350 Meadows Blvd", "Castle Rock, CO 80109"]}, "phone": "+17204553664",
+        "display_phone": "(720) 455-3664", "distance": 2258.3736210954603}, {"id":
+        "jW7vaOJfV_BIw6C99LoZfQ", "alias": "anthonys-pizza-and-pasta-castle-rock",
+        "name": "Anthony''s Pizza and Pasta", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/swsW87V33TZ9T9SgDnCHXQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/anthonys-pizza-and-pasta-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 84, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "italian", "title": "Italian"}], "rating": 2.5, "coordinates": {"latitude":
+        39.4270985569341, "longitude": -104.902205807485}, "transactions": ["delivery",
+        "pickup"], "price": "$", "location": {"address1": "880 Happy Canyon Rd", "address2":
+        "", "address3": "", "city": "Castle Rock", "zip_code": "80108", "country":
+        "US", "state": "CO", "display_address": ["880 Happy Canyon Rd", "Castle Rock,
+        CO 80108"]}, "phone": "+13038141888", "display_phone": "(303) 814-1888", "distance":
+        5079.797411170341}, {"id": "RtnEsEQu7QkgV8-zagHkBA", "alias": "mod-pizza-castle-rock",
+        "name": "MOD Pizza", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/yJOGyby5NYsL-vEHFcaPIQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/mod-pizza-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 149, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "hotdogs", "title": "Fast Food"}], "rating": 4.0, "coordinates":
+        {"latitude": 39.410679, "longitude": -104.873082}, "transactions": ["delivery"],
+        "price": "$$", "location": {"address1": "4989 Factory Shops Blvd", "address2":
+        "", "address3": "", "city": "Castle Rock", "zip_code": "80108", "country":
+        "US", "state": "CO", "display_address": ["4989 Factory Shops Blvd", "Castle
+        Rock, CO 80108"]}, "phone": "+17206164500", "display_phone": "(720) 616-4500",
+        "distance": 2268.147072927767}, {"id": "6swdVBYSJKIfOX1fjSS_vQ", "alias":
+        "via-baci-lone-tree-3", "name": "Via Baci", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/kFYy_dweUE9KEjABAw2IRA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/via-baci-lone-tree-3?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 464, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "wine_bars", "title": "Wine Bars"}, {"alias": "pizza", "title":
+        "Pizza"}], "rating": 4.0, "coordinates": {"latitude": 39.5342249, "longitude":
+        -104.8821998}, "transactions": ["delivery", "pickup"], "price": "$$", "location":
+        {"address1": "10005 Commons St", "address2": "", "address3": "", "city": "Lone
+        Tree", "zip_code": "80124", "country": "US", "state": "CO", "display_address":
+        ["10005 Commons St", "Lone Tree, CO 80124"]}, "phone": "+13037900828", "display_phone":
+        "(303) 790-0828", "distance": 15981.20945028051}, {"id": "zqaTUHUVX-cV58dOh_fA2Q",
+        "alias": "rocky-mountain-pizzeria-parker", "name": "Rocky Mountain Pizzeria",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/F6yXUwJeoiQkSgHp6RmCgQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/rocky-mountain-pizzeria-parker?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 82, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "italian", "title": "Italian"}, {"alias": "burgers", "title": "Burgers"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.4931249663093, "longitude":
+        -104.762981060443}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "19523 Hess Rd", "address2": "Unit 101", "address3": null, "city":
+        "Parker", "zip_code": "80134", "country": "US", "state": "CO", "display_address":
+        ["19523 Hess Rd", "Unit 101", "Parker, CO 80134"]}, "phone": "+17202873006",
+        "display_phone": "(720) 287-3006", "distance": 14483.960044265179}, {"id":
+        "RO64anl6pKJnl-W1LiOP5g", "alias": "donatos-pizza-castle-rock", "name": "Donatos
+        Pizza", "image_url": "", "is_closed": false, "url": "https://www.yelp.com/biz/donatos-pizza-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 2, "categories": [{"alias": "pizza", "title": "Pizza"}], "rating":
+        3.0, "coordinates": {"latitude": 39.41231040583778, "longitude": -104.8628498689933},
+        "transactions": ["delivery", "pickup"], "location": {"address1": "46 E Allen
+        St", "address2": null, "address3": null, "city": "Castle Rock", "zip_code":
+        "80108", "country": "US", "state": "CO", "display_address": ["46 E Allen St",
+        "Castle Rock, CO 80108"]}, "phone": "+13036887677", "display_phone": "(303)
+        688-7677", "distance": 2377.6397541745123}, {"id": "6c7eGiPD-yhj0qMtwtPYaQ",
+        "alias": "pizza-hut-castle-rock", "name": "Pizza Hut", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qPl0w4TXdYTcF4RKruO9EQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/pizza-hut-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 40, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "chicken_wings", "title": "Chicken Wings"}, {"alias": "hotdogs", "title":
+        "Fast Food"}], "rating": 2.0, "coordinates": {"latitude": 39.366423226105,
+        "longitude": -104.861750834389}, "transactions": ["delivery", "pickup"], "price":
+        "$", "location": {"address1": "340 S Wilcox St", "address2": "", "address3":
+        "", "city": "Castle Rock", "zip_code": "80104", "country": "US", "state":
+        "CO", "display_address": ["340 S Wilcox St", "Castle Rock, CO 80104"]}, "phone":
+        "+13036883622", "display_phone": "(303) 688-3622", "distance": 2761.8733188083797},
+        {"id": "NLADqenFRn2dorxKrRS6BA", "alias": "burly-brewing-company-castle-rock-2",
+        "name": "BURLY Brewing Company", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/rpcmCu5Q6FjV_Ros8LEdtw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/burly-brewing-company-castle-rock-2?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 90, "categories": [{"alias": "beerbar", "title": "Beer Bar"},
+        {"alias": "brewpubs", "title": "Brewpubs"}], "rating": 4.0, "coordinates":
+        {"latitude": 39.37544, "longitude": -104.87086}, "transactions": ["delivery"],
+        "price": "$$", "location": {"address1": "680 Atchison Way", "address2": "Ste
+        800", "address3": "", "city": "Castle Rock", "zip_code": "80109", "country":
+        "US", "state": "CO", "display_address": ["680 Atchison Way", "Ste 800", "Castle
+        Rock, CO 80109"]}, "phone": "+17204860541", "display_phone": "(720) 486-0541",
+        "distance": 1775.167037218652}, {"id": "WDOGFdCuBhuZOT6hYtoTkw", "alias":
+        "dominos-pizza-castle-rock", "name": "Domino''s Pizza", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/tpW_HhasGTwPw0JfpAPTiw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/dominos-pizza-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 48, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "chicken_wings", "title": "Chicken Wings"}, {"alias": "sandwiches", "title":
+        "Sandwiches"}], "rating": 3.0, "coordinates": {"latitude": 39.3763961791992,
+        "longitude": -104.861488342285}, "transactions": [], "price": "$", "location":
+        {"address1": "695 Jerry St", "address2": "Ste 108", "address3": "", "city":
+        "Castle Rock", "zip_code": "80104", "country": "US", "state": "CO", "display_address":
+        ["695 Jerry St", "Ste 108", "Castle Rock, CO 80104"]}, "phone": "+13036601222",
+        "display_phone": "(303) 660-1222", "distance": 1690.193624369659}], "total":
+        136, "region": {"center": {"longitude": -104.86587524414062, "latitude": 39.391055930814304}}}'
+  recorded_at: Wed, 10 Aug 2022 20:23:44 GMT
+recorded_with: VCR 6.1.0

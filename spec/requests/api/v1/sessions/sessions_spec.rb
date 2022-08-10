@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'sessions endpoint' do
-  it 'can login a user' do
+  it 'can login a user', :vcr do
     user = {
       email:' tcruise@gmail.com',
       password: 'fighter4',
@@ -19,7 +19,7 @@ RSpec.describe 'sessions endpoint' do
     expect(response.status).to eq(200)
   end
 
-  it 'can get 400 response for bad credentials' do
+  it 'can get 400 response for bad credentials', :vcr do
     user = {
       email:' tcruise@gmail.com',
       password: 'fighter4',

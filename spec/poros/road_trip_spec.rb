@@ -20,6 +20,6 @@ RSpec.describe RoadTrip do
 
     road_trip = RoadTrip.new(trip)
 
-    expect(raod_trip).to be_a(RoadTrip)
+    expect(road_trip).to be_a(RoadTrip)
   end
 end

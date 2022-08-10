@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'users endpoints' do
-  it 'creates a user' do
+  it 'creates a user', :vcr do
     user = {
       email:' tcruise@gmail.com',
       password: 'fighter4',
@@ -13,7 +13,8 @@ RSpec.describe 'users endpoints' do
     expect(response.status).to be(201)
 
   end
-  it 'tries to create a user with an email already taken' do
+  
+  it 'tries to create a user with an email already taken', :vcr do
     user = {
       email:' tcruise@gmail.com',
       password: 'fighter4',

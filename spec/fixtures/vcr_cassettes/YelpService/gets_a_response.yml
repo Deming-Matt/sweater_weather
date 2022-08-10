@@ -1,0 +1,277 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?location=castle%20rock,%20co&term=pizza
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Authorization:
+      - "<Authorization>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Resettime:
+      - '2022-08-11T00:00:00+00:00'
+      X-Zipkin-Id:
+      - e41dcb7bc42cfceb
+      X-Routing-Service:
+      - routing-main--uswest2-77d4785ff7-f5l67; site=public_api_v3
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4969'
+      Server:
+      - envoy
+      X-Cloudmap:
+      - routing_uswest2
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-69-184-36-uswest2bprod
+      X-Extlb:
+      - 10-69-184-36-uswest2bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 10 Aug 2022 20:23:49 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-den8258-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "3kjN8Dlib5lWS7v7sI_gHQ", "alias": "scileppis-at-the-old-stone-church-castle-rock",
+        "name": "Scileppi''s at The Old Stone Church", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ptpyfgGx2VTsjPIzhQvT8Q/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/scileppis-at-the-old-stone-church-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 332, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "pizza", "title": "Pizza"}], "rating": 4.5, "coordinates": {"latitude":
+        39.37199, "longitude": -104.86114}, "transactions": ["delivery"], "price":
+        "$$", "location": {"address1": "210 Third St", "address2": "", "address3":
+        null, "city": "Castle Rock", "zip_code": "80104", "country": "US", "state":
+        "CO", "display_address": ["210 Third St", "Castle Rock, CO 80104"]}, "phone":
+        "+13036889000", "display_phone": "(303) 688-9000", "distance": 2157.3759898949324},
+        {"id": "-Av9drbCjlK9-lP3dxjRwg", "alias": "212-pizza-company-castle-rock",
+        "name": "212 Pizza Company", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/COrTHcCz4PHuBh189Qzhdw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/212-pizza-company-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 248, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}], "rating": 4.5, "coordinates": {"latitude":
+        39.3762741088867, "longitude": -104.829078674316}, "transactions": ["delivery"],
+        "price": "$$", "location": {"address1": "848 N Ridge Rd", "address2": "Ste
+        F", "address3": "", "city": "Castle Rock", "zip_code": "80104", "country":
+        "US", "state": "CO", "display_address": ["848 N Ridge Rd", "Ste F", "Castle
+        Rock, CO 80104"]}, "phone": "+13036889800", "display_phone": "(303) 688-9800",
+        "distance": 3556.44355600167}, {"id": "MFW37oLIMy6LW5k9pymZmg", "alias": "granellis-pizzeria-castle-rock",
+        "name": "Granelli''s Pizzeria", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Rf0KhF1k6fHXfWfytl7v5A/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/granellis-pizzeria-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 226, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 3.5, "coordinates": {"latitude": 39.3699799, "longitude": -104.8604126},
+        "transactions": ["delivery"], "price": "$$", "location": {"address1": "21
+        Wilcox St", "address2": "", "address3": "", "city": "Castle Rock", "zip_code":
+        "80104", "country": "US", "state": "CO", "display_address": ["21 Wilcox St",
+        "Castle Rock, CO 80104"]}, "phone": "+13038141853", "display_phone": "(303)
+        814-1853", "distance": 2390.4443151464043}, {"id": "LYQNm3h2iV6GWx3TzJqmIg",
+        "alias": "zabbracci-pizza-pasta-and-tap-house-castle-rock-2", "name": "Z''Abbracci
+        - Pizza, Pasta & Tap House", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/hLowi8uqCRe3cbhjRGrg3w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/zabbracci-pizza-pasta-and-tap-house-castle-rock-2?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 225, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}, {"alias": "beerbar", "title": "Beer
+        Bar"}], "rating": 3.5, "coordinates": {"latitude": 39.37282, "longitude":
+        -104.85963}, "transactions": ["pickup", "delivery"], "price": "$$", "location":
+        {"address1": "312 Wilcox St", "address2": "", "address3": null, "city": "Castle
+        Rock", "zip_code": "80104", "country": "US", "state": "CO", "display_address":
+        ["312 Wilcox St", "Castle Rock, CO 80104"]}, "phone": "+17205354151", "display_phone":
+        "(720) 535-4151", "distance": 2098.4773376219823}, {"id": "jGvlExzHyCAyrXs3L-AQAw",
+        "alias": "sliceworks-castle-rock", "name": "Sliceworks", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/dMGO4nHLAj0spvnBav8Scg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/sliceworks-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 20, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "italian", "title": "Italian"}, {"alias": "salad", "title": "Salad"}], "rating":
+        3.5, "coordinates": {"latitude": 39.37199, "longitude": -104.86114}, "transactions":
+        ["delivery"], "location": {"address1": "210 3rd St", "address2": "", "address3":
+        null, "city": "Castle Rock", "zip_code": "80104", "country": "US", "state":
+        "CO", "display_address": ["210 3rd St", "Castle Rock, CO 80104"]}, "phone":
+        "+13036889000", "display_phone": "(303) 688-9000", "distance": 2157.3759898949324},
+        {"id": "-51oUU5kZVlS29sKy6tMmg", "alias": "stumpys-new-york-style-pizza-castle-rock",
+        "name": "Stumpy''s New York Style Pizza", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ABzb2awh7H8pHjhci2ontQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/stumpys-new-york-style-pizza-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 147, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "sportsbars", "title": "Sports Bars"}, {"alias": "burgers", "title":
+        "Burgers"}], "rating": 3.5, "coordinates": {"latitude": 39.3676052, "longitude":
+        -104.8610398}, "transactions": ["delivery"], "price": "$$", "location": {"address1":
+        "138 S Wilcox St", "address2": "", "address3": "", "city": "Castle Rock",
+        "zip_code": "80104", "country": "US", "state": "CO", "display_address": ["138
+        S Wilcox St", "Castle Rock, CO 80104"]}, "phone": "+13038141800", "display_phone":
+        "(303) 814-1800", "distance": 2640.5114974801127}, {"id": "AeeGvIfS5qzf7aKyFmHyWw",
+        "alias": "parrys-pizzeria-and-taphouse-castle-rock-2", "name": "Parry''s Pizzeria
+        & Taphouse", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/owqY7_hjuhn9h4UDGWt8QA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/parrys-pizzeria-and-taphouse-castle-rock-2?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 275, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}, {"alias": "beerbar", "title": "Beer
+        Bar"}], "rating": 3.0, "coordinates": {"latitude": 39.4148552065311, "longitude":
+        -104.862349518246}, "transactions": ["pickup", "delivery"], "price": "$$",
+        "location": {"address1": "5650 Allen Way", "address2": "", "address3": "",
+        "city": "Castle Rock", "zip_code": "80108", "country": "US", "state": "CO",
+        "display_address": ["5650 Allen Way", "Castle Rock, CO 80108"]}, "phone":
+        "+13038148686", "display_phone": "(303) 814-8686", "distance": 2663.637814808253},
+        {"id": "pU05-oAPWoaMM6npHNaUzQ", "alias": "the-old-north-end-castle-rock",
+        "name": "The Old North End", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/-JGW8XU2o732v769EUa5Yw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-old-north-end-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 80, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "italian", "title": "Italian"}, {"alias": "salad", "title": "Salad"}], "rating":
+        4.0, "coordinates": {"latitude": 39.4026957990016, "longitude": -104.880767376097},
+        "transactions": [], "price": "$$", "location": {"address1": "3980 Limelight
+        Ave", "address2": "Unit A", "address3": null, "city": "Castle Rock", "zip_code":
+        "80109", "country": "US", "state": "CO", "display_address": ["3980 Limelight
+        Ave", "Unit A", "Castle Rock, CO 80109"]}, "phone": "+17204854077", "display_phone":
+        "(720) 485-4077", "distance": 1820.0806443778324}, {"id": "FVGF_LyPHHS6cUz0yZaKDQ",
+        "alias": "pinos-italian-kitchen-and-bar-castle-pines-5", "name": "Pino''s
+        Italian Kitchen & Bar", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HueuEAu9f5oevlyV1M3L6w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/pinos-italian-kitchen-and-bar-castle-pines-5?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 367, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "pizza", "title": "Pizza"}, {"alias": "steak", "title": "Steakhouses"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.4705494, "longitude": -104.8799259},
+        "transactions": ["pickup", "delivery"], "price": "$$", "location": {"address1":
+        "361 Village Square Ln", "address2": "Ste 130", "address3": "", "city": "Castle
+        Pines", "zip_code": "80108", "country": "US", "state": "CO", "display_address":
+        ["361 Village Square Ln", "Ste 130", "Castle Pines, CO 80108"]}, "phone":
+        "+13036633421", "display_phone": "(303) 663-3421", "distance": 8921.25469273528},
+        {"id": "SVofal-VfjfjPsodqx7j3A", "alias": "great-divide-brewery-and-roadhouse-castle-rock",
+        "name": "Great Divide Brewery & Roadhouse", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/8ZiLQukQGnQeCHgHKfhugA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/great-divide-brewery-and-roadhouse-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 234, "categories": [{"alias": "breweries", "title": "Breweries"},
+        {"alias": "newamerican", "title": "American (New)"}], "rating": 4.0, "coordinates":
+        {"latitude": 39.371617, "longitude": -104.860507}, "transactions": ["pickup",
+        "delivery"], "price": "$$", "location": {"address1": "215 Wilcox St", "address2":
+        null, "address3": "", "city": "Castle Rock", "zip_code": "80104", "country":
+        "US", "state": "CO", "display_address": ["215 Wilcox St", "Castle Rock, CO
+        80104"]}, "phone": "+13039555788", "display_phone": "(303) 955-5788", "distance":
+        2211.306220330586}, {"id": "WVzDNRCAojEFAtvJR8y0pg", "alias": "artisan-pizza-parker-2",
+        "name": "Artisan Pizza", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/o5PjW_lNLtUsZ7vctABe0w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/artisan-pizza-parker-2?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 147, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.4924736022949, "longitude":
+        -104.757041931152}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "12311 Pine Bluffs Way", "address2": "Ste 107", "address3": "",
+        "city": "Parker", "zip_code": "80134", "country": "US", "state": "CO", "display_address":
+        ["12311 Pine Bluffs Way", "Ste 107", "Parker, CO 80134"]}, "phone": "+13038400518",
+        "display_phone": "(303) 840-0518", "distance": 14646.458605665837}, {"id":
+        "0B6wCOwRvwz-QxTLVLQcFg", "alias": "manna-restaurant-castle-rock", "name":
+        "Manna Restaurant", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/SUGylRwEWd5viMFTun1mhw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/manna-restaurant-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 302, "categories": [{"alias": "newamerican", "title": "American
+        (New)"}], "rating": 4.5, "coordinates": {"latitude": 39.4054656198158, "longitude":
+        -104.884397229376}, "transactions": ["delivery"], "price": "$", "location":
+        {"address1": "2350 Meadows Blvd", "address2": "", "address3": "", "city":
+        "Castle Rock", "zip_code": "80109", "country": "US", "state": "CO", "display_address":
+        ["2350 Meadows Blvd", "Castle Rock, CO 80109"]}, "phone": "+17204553664",
+        "display_phone": "(720) 455-3664", "distance": 2258.3736210954603}, {"id":
+        "jW7vaOJfV_BIw6C99LoZfQ", "alias": "anthonys-pizza-and-pasta-castle-rock",
+        "name": "Anthony''s Pizza and Pasta", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/swsW87V33TZ9T9SgDnCHXQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/anthonys-pizza-and-pasta-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 84, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "italian", "title": "Italian"}], "rating": 2.5, "coordinates": {"latitude":
+        39.4270985569341, "longitude": -104.902205807485}, "transactions": ["pickup",
+        "delivery"], "price": "$", "location": {"address1": "880 Happy Canyon Rd",
+        "address2": "", "address3": "", "city": "Castle Rock", "zip_code": "80108",
+        "country": "US", "state": "CO", "display_address": ["880 Happy Canyon Rd",
+        "Castle Rock, CO 80108"]}, "phone": "+13038141888", "display_phone": "(303)
+        814-1888", "distance": 5079.797411170341}, {"id": "RtnEsEQu7QkgV8-zagHkBA",
+        "alias": "mod-pizza-castle-rock", "name": "MOD Pizza", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/yJOGyby5NYsL-vEHFcaPIQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/mod-pizza-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 149, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "hotdogs", "title": "Fast Food"}], "rating": 4.0, "coordinates":
+        {"latitude": 39.410679, "longitude": -104.873082}, "transactions": ["delivery"],
+        "price": "$$", "location": {"address1": "4989 Factory Shops Blvd", "address2":
+        "", "address3": "", "city": "Castle Rock", "zip_code": "80108", "country":
+        "US", "state": "CO", "display_address": ["4989 Factory Shops Blvd", "Castle
+        Rock, CO 80108"]}, "phone": "+17206164500", "display_phone": "(720) 616-4500",
+        "distance": 2268.147072927767}, {"id": "6swdVBYSJKIfOX1fjSS_vQ", "alias":
+        "via-baci-lone-tree-3", "name": "Via Baci", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/kFYy_dweUE9KEjABAw2IRA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/via-baci-lone-tree-3?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 464, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "wine_bars", "title": "Wine Bars"}, {"alias": "pizza", "title":
+        "Pizza"}], "rating": 4.0, "coordinates": {"latitude": 39.5342249, "longitude":
+        -104.8821998}, "transactions": ["pickup", "delivery"], "price": "$$", "location":
+        {"address1": "10005 Commons St", "address2": "", "address3": "", "city": "Lone
+        Tree", "zip_code": "80124", "country": "US", "state": "CO", "display_address":
+        ["10005 Commons St", "Lone Tree, CO 80124"]}, "phone": "+13037900828", "display_phone":
+        "(303) 790-0828", "distance": 15981.20945028051}, {"id": "zqaTUHUVX-cV58dOh_fA2Q",
+        "alias": "rocky-mountain-pizzeria-parker", "name": "Rocky Mountain Pizzeria",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/F6yXUwJeoiQkSgHp6RmCgQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/rocky-mountain-pizzeria-parker?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 82, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "italian", "title": "Italian"}, {"alias": "burgers", "title": "Burgers"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.4931249663093, "longitude":
+        -104.762981060443}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "19523 Hess Rd", "address2": "Unit 101", "address3": null, "city":
+        "Parker", "zip_code": "80134", "country": "US", "state": "CO", "display_address":
+        ["19523 Hess Rd", "Unit 101", "Parker, CO 80134"]}, "phone": "+17202873006",
+        "display_phone": "(720) 287-3006", "distance": 14483.960044265179}, {"id":
+        "RO64anl6pKJnl-W1LiOP5g", "alias": "donatos-pizza-castle-rock", "name": "Donatos
+        Pizza", "image_url": "", "is_closed": false, "url": "https://www.yelp.com/biz/donatos-pizza-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 2, "categories": [{"alias": "pizza", "title": "Pizza"}], "rating":
+        3.0, "coordinates": {"latitude": 39.41231040583778, "longitude": -104.8628498689933},
+        "transactions": ["pickup", "delivery"], "location": {"address1": "46 E Allen
+        St", "address2": null, "address3": null, "city": "Castle Rock", "zip_code":
+        "80108", "country": "US", "state": "CO", "display_address": ["46 E Allen St",
+        "Castle Rock, CO 80108"]}, "phone": "+13036887677", "display_phone": "(303)
+        688-7677", "distance": 2377.6397541745123}, {"id": "6c7eGiPD-yhj0qMtwtPYaQ",
+        "alias": "pizza-hut-castle-rock", "name": "Pizza Hut", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qPl0w4TXdYTcF4RKruO9EQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/pizza-hut-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 40, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "chicken_wings", "title": "Chicken Wings"}, {"alias": "hotdogs", "title":
+        "Fast Food"}], "rating": 2.0, "coordinates": {"latitude": 39.366423226105,
+        "longitude": -104.861750834389}, "transactions": ["pickup", "delivery"], "price":
+        "$", "location": {"address1": "340 S Wilcox St", "address2": "", "address3":
+        "", "city": "Castle Rock", "zip_code": "80104", "country": "US", "state":
+        "CO", "display_address": ["340 S Wilcox St", "Castle Rock, CO 80104"]}, "phone":
+        "+13036883622", "display_phone": "(303) 688-3622", "distance": 2761.8733188083797},
+        {"id": "NLADqenFRn2dorxKrRS6BA", "alias": "burly-brewing-company-castle-rock-2",
+        "name": "BURLY Brewing Company", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/rpcmCu5Q6FjV_Ros8LEdtw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/burly-brewing-company-castle-rock-2?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 90, "categories": [{"alias": "beerbar", "title": "Beer Bar"},
+        {"alias": "brewpubs", "title": "Brewpubs"}], "rating": 4.0, "coordinates":
+        {"latitude": 39.37544, "longitude": -104.87086}, "transactions": ["delivery"],
+        "price": "$$", "location": {"address1": "680 Atchison Way", "address2": "Ste
+        800", "address3": "", "city": "Castle Rock", "zip_code": "80109", "country":
+        "US", "state": "CO", "display_address": ["680 Atchison Way", "Ste 800", "Castle
+        Rock, CO 80109"]}, "phone": "+17204860541", "display_phone": "(720) 486-0541",
+        "distance": 1775.167037218652}, {"id": "WDOGFdCuBhuZOT6hYtoTkw", "alias":
+        "dominos-pizza-castle-rock", "name": "Domino''s Pizza", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/tpW_HhasGTwPw0JfpAPTiw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/dominos-pizza-castle-rock?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 48, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "chicken_wings", "title": "Chicken Wings"}, {"alias": "sandwiches", "title":
+        "Sandwiches"}], "rating": 3.0, "coordinates": {"latitude": 39.3763961791992,
+        "longitude": -104.861488342285}, "transactions": [], "price": "$", "location":
+        {"address1": "695 Jerry St", "address2": "Ste 108", "address3": "", "city":
+        "Castle Rock", "zip_code": "80104", "country": "US", "state": "CO", "display_address":
+        ["695 Jerry St", "Ste 108", "Castle Rock, CO 80104"]}, "phone": "+13036601222",
+        "display_phone": "(303) 660-1222", "distance": 1690.193624369659}], "total":
+        136, "region": {"center": {"longitude": -104.86587524414062, "latitude": 39.391055930814304}}}'
+  recorded_at: Wed, 10 Aug 2022 20:23:49 GMT
+recorded_with: VCR 6.1.0
