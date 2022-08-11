@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'road trip endpoints' do
-  it 'can send roadtrip data' do
+  it 'can send roadtrip data', :vcr do
     user = {
       email:' tcruise@gmail.com',
       password: 'fighter4',

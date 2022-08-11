@@ -10,11 +10,11 @@ class OpenWeatherFacade
       })
   end
 
-  def self.create_hourly_data(latlng)
-    json = OpenWeatherService.forecast(latlng)
-    x = json[:hourly].map { |hour| HourlyWeather.new(hour) }
-    binding.pry
-  end
+  # def self.create_hourly_data(latlng)
+  #   json = OpenWeatherService.forecast(latlng)
+  #   x = json[:hourly].map { |hour| HourlyWeather.new(hour) }
+  #   binding.pry
+  # end
 
   private
     def self.current_weather(json)
