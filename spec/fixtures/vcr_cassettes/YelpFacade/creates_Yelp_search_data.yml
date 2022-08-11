@@ -19,11 +19,11 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Wed, 10 Aug 2022 20:23:40 GMT
+      - Thu, 11 Aug 2022 02:21:51 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Content-Length:
-      - '1733'
+      - '1736'
       Access-Control-Allow-Methods:
       - OPTIONS,GET,POST
       Access-Control-Allow-Origin:
@@ -35,13 +35,13 @@ http_interactions:
       Geocodetransactioncount:
       - '1'
       Last-Modified:
-      - Wed, 10 Aug 2022 20:23:40 GMT
+      - Thu, 11 Aug 2022 02:21:51 GMT
       Pragma:
       - no-cache
       Reversegeocodetransactioncount:
       - '0'
       Set-Cookie:
-      - JSESSIONID=AD524D49627E9960536DC251DACE2CA3; Path=/; HttpOnly
+      - JSESSIONID=36B4B161A5B11C922BCBF8DA0A4DA4DA; Path=/; HttpOnly
       Status:
       - success
       Transactionweight:
@@ -52,9 +52,9 @@ http_interactions:
         Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
         2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"denver,
         co"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
-        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<key>&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=1730408067"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
-        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<key>&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=34652751"}]}]}'
-  recorded_at: Wed, 10 Aug 2022 20:23:40 GMT
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<key>&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-1922134921"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<key>&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-183984328"}]}]}'
+  recorded_at: Thu, 11 Aug 2022 02:21:51 GMT
 - request:
     method: get
     uri: https://api.openweathermap.org/data/2.5/onecall?appid=<appid>&exclude=minutely,alerts&lat=39.738453&lon=-104.984853&units=imperial
@@ -76,11 +76,11 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Wed, 10 Aug 2022 20:23:40 GMT
+      - Thu, 11 Aug 2022 02:21:52 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '17439'
+      - '17490'
       Connection:
       - keep-alive
       X-Cache-Key:
@@ -93,65 +93,65 @@ http_interactions:
       - GET, POST
     body:
       encoding: UTF-8
-      string: '{"lat":39.7385,"lon":-104.9849,"timezone":"America/Denver","timezone_offset":-21600,"current":{"dt":1660163020,"sunrise":1660133246,"sunset":1660183395,"temp":92.41,"feels_like":89.02,"pressure":1017,"humidity":22,"dew_point":48.07,"uvi":9.44,"clouds":0,"visibility":10000,"wind_speed":4,"wind_deg":154,"wind_gust":11.01,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}]},"hourly":[{"dt":1660161600,"temp":92.41,"feels_like":89.02,"pressure":1017,"humidity":22,"dew_point":48.07,"uvi":9.44,"clouds":0,"visibility":10000,"wind_speed":3,"wind_deg":99,"wind_gust":5.03,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660165200,"temp":92.77,"feels_like":89.08,"pressure":1016,"humidity":20,"dew_point":45.84,"uvi":7.56,"clouds":0,"visibility":10000,"wind_speed":5.99,"wind_deg":125,"wind_gust":6.53,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660168800,"temp":93.11,"feels_like":89.15,"pressure":1015,"humidity":18,"dew_point":43.36,"uvi":5.14,"clouds":0,"visibility":10000,"wind_speed":13.29,"wind_deg":145,"wind_gust":9.6,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660172400,"temp":92.61,"feels_like":88.77,"pressure":1015,"humidity":19,"dew_point":44.37,"uvi":2.78,"clouds":0,"visibility":10000,"wind_speed":15.26,"wind_deg":149,"wind_gust":10.07,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660176000,"temp":91.24,"feels_like":87.31,"pressure":1014,"humidity":18,"dew_point":41.85,"uvi":1.08,"clouds":0,"visibility":10000,"wind_speed":14.54,"wind_deg":148,"wind_gust":8.59,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660179600,"temp":89.06,"feels_like":85.46,"pressure":1013,"humidity":20,"dew_point":42.94,"uvi":0.26,"clouds":0,"visibility":10000,"wind_speed":14.23,"wind_deg":147,"wind_gust":12.35,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660183200,"temp":86.16,"feels_like":83.16,"pressure":1014,"humidity":23,"dew_point":44.44,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":13.33,"wind_deg":152,"wind_gust":17.07,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660186800,"temp":84.02,"feels_like":81.66,"pressure":1015,"humidity":26,"dew_point":44.8,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":11.12,"wind_deg":159,"wind_gust":20.11,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1660190400,"temp":81.48,"feels_like":79.99,"pressure":1015,"humidity":28,"dew_point":45.25,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":12.1,"wind_deg":162,"wind_gust":23.44,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1660194000,"temp":79.86,"feels_like":79.86,"pressure":1016,"humidity":30,"dew_point":45.27,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":13.24,"wind_deg":162,"wind_gust":26.55,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1660197600,"temp":78.19,"feels_like":77.16,"pressure":1017,"humidity":31,"dew_point":44.85,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":14.2,"wind_deg":167,"wind_gust":29.12,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1660201200,"temp":77.05,"feels_like":76.01,"pressure":1016,"humidity":33,"dew_point":45.37,"uvi":0,"clouds":4,"visibility":10000,"wind_speed":11.72,"wind_deg":176,"wind_gust":23.35,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1660204800,"temp":75.63,"feels_like":74.53,"pressure":1016,"humidity":35,"dew_point":45.54,"uvi":0,"clouds":4,"visibility":10000,"wind_speed":8.12,"wind_deg":190,"wind_gust":14.05,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1660208400,"temp":74.98,"feels_like":73.83,"pressure":1016,"humidity":35,"dew_point":45.21,"uvi":0,"clouds":4,"visibility":10000,"wind_speed":5.44,"wind_deg":201,"wind_gust":8.77,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1660212000,"temp":74.34,"feels_like":73.11,"pressure":1016,"humidity":35,"dew_point":45,"uvi":0,"clouds":3,"visibility":10000,"wind_speed":3.53,"wind_deg":222,"wind_gust":5.77,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1660215600,"temp":73.71,"feels_like":72.46,"pressure":1016,"humidity":36,"dew_point":44.8,"uvi":0,"clouds":3,"visibility":10000,"wind_speed":2.59,"wind_deg":224,"wind_gust":3.4,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1660219200,"temp":73.02,"feels_like":71.71,"pressure":1017,"humidity":36,"dew_point":44.46,"uvi":0,"clouds":3,"visibility":10000,"wind_speed":1.52,"wind_deg":237,"wind_gust":2.46,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1660222800,"temp":73.54,"feels_like":72.28,"pressure":1017,"humidity":36,"dew_point":44.38,"uvi":0.26,"clouds":5,"visibility":10000,"wind_speed":1.48,"wind_deg":199,"wind_gust":2.08,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660226400,"temp":76.05,"feels_like":74.86,"pressure":1017,"humidity":32,"dew_point":44.24,"uvi":1.09,"clouds":4,"visibility":10000,"wind_speed":1.68,"wind_deg":171,"wind_gust":2.26,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660230000,"temp":79.41,"feels_like":79.41,"pressure":1016,"humidity":29,"dew_point":44.04,"uvi":2.76,"clouds":3,"visibility":10000,"wind_speed":2.8,"wind_deg":139,"wind_gust":2.64,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660233600,"temp":83.35,"feels_like":81.09,"pressure":1016,"humidity":25,"dew_point":43.56,"uvi":5.12,"clouds":2,"visibility":10000,"wind_speed":3.74,"wind_deg":130,"wind_gust":3.8,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660237200,"temp":86.68,"feels_like":83.53,"pressure":1015,"humidity":22,"dew_point":43.25,"uvi":7.61,"clouds":2,"visibility":10000,"wind_speed":4.43,"wind_deg":102,"wind_gust":4.41,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660240800,"temp":89.74,"feels_like":86.09,"pressure":1014,"humidity":20,"dew_point":43.23,"uvi":9.51,"clouds":1,"visibility":10000,"wind_speed":4.61,"wind_deg":84,"wind_gust":4.36,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660244400,"temp":92.57,"feels_like":88.61,"pressure":1013,"humidity":18,"dew_point":43.25,"uvi":10.21,"clouds":0,"visibility":10000,"wind_speed":4,"wind_deg":74,"wind_gust":3.83,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660248000,"temp":94.66,"feels_like":90.57,"pressure":1012,"humidity":17,"dew_point":42.71,"uvi":9.49,"clouds":0,"visibility":10000,"wind_speed":3.91,"wind_deg":80,"wind_gust":5.41,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660251600,"temp":95.56,"feels_like":91.18,"pressure":1010,"humidity":15,"dew_point":40.75,"uvi":7.6,"clouds":0,"visibility":10000,"wind_speed":6.87,"wind_deg":107,"wind_gust":9.17,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660255200,"temp":96.15,"feels_like":91.63,"pressure":1009,"humidity":14,"dew_point":40.17,"uvi":5.1,"clouds":0,"visibility":10000,"wind_speed":10.2,"wind_deg":119,"wind_gust":9.06,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660258800,"temp":95.25,"feels_like":90.88,"pressure":1009,"humidity":15,"dew_point":40.86,"uvi":2.75,"clouds":0,"visibility":10000,"wind_speed":11.99,"wind_deg":125,"wind_gust":8.81,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660262400,"temp":93.51,"feels_like":89.29,"pressure":1009,"humidity":16,"dew_point":40.62,"uvi":1.06,"clouds":0,"visibility":10000,"wind_speed":13.96,"wind_deg":140,"wind_gust":7.96,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660266000,"temp":90.82,"feels_like":86.92,"pressure":1010,"humidity":18,"dew_point":41.23,"uvi":0.25,"clouds":0,"visibility":10000,"wind_speed":16.51,"wind_deg":147,"wind_gust":15.19,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660269600,"temp":87.08,"feels_like":83.71,"pressure":1011,"humidity":20,"dew_point":41.43,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":14.85,"wind_deg":150,"wind_gust":20.24,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660273200,"temp":85.06,"feels_like":82.15,"pressure":1012,"humidity":21,"dew_point":40.23,"uvi":0,"clouds":29,"visibility":10000,"wind_speed":13.4,"wind_deg":155,"wind_gust":23.6,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03n"}],"pop":0},{"dt":1660276800,"temp":82.06,"feels_like":80.01,"pressure":1013,"humidity":22,"dew_point":39.63,"uvi":0,"clouds":46,"visibility":10000,"wind_speed":14.25,"wind_deg":166,"wind_gust":28.79,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03n"}],"pop":0},{"dt":1660280400,"temp":81.05,"feels_like":79.45,"pressure":1013,"humidity":24,"dew_point":41.09,"uvi":0,"clouds":57,"visibility":10000,"wind_speed":9.78,"wind_deg":185,"wind_gust":21.74,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04n"}],"pop":0},{"dt":1660284000,"temp":79.48,"feels_like":79.48,"pressure":1014,"humidity":29,"dew_point":44.11,"uvi":0,"clouds":64,"visibility":10000,"wind_speed":5.99,"wind_deg":209,"wind_gust":9.93,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04n"}],"pop":0},{"dt":1660287600,"temp":78.62,"feels_like":77.65,"pressure":1014,"humidity":31,"dew_point":45.41,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":4.27,"wind_deg":222,"wind_gust":6.67,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1660291200,"temp":77.85,"feels_like":76.87,"pressure":1014,"humidity":33,"dew_point":46.24,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":2.66,"wind_deg":244,"wind_gust":5.66,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1660294800,"temp":76.86,"feels_like":75.85,"pressure":1014,"humidity":34,"dew_point":46.36,"uvi":0,"clouds":98,"visibility":10000,"wind_speed":1.12,"wind_deg":307,"wind_gust":4.36,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1660298400,"temp":75.87,"feels_like":74.8,"pressure":1014,"humidity":35,"dew_point":45.97,"uvi":0,"clouds":97,"visibility":10000,"wind_speed":2.84,"wind_deg":359,"wind_gust":5.01,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1660302000,"temp":75.15,"feels_like":74.01,"pressure":1015,"humidity":35,"dew_point":45.46,"uvi":0,"clouds":78,"visibility":10000,"wind_speed":3.6,"wind_deg":355,"wind_gust":8.48,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04n"}],"pop":0},{"dt":1660305600,"temp":74.35,"feels_like":73.18,"pressure":1015,"humidity":36,"dew_point":45.39,"uvi":0,"clouds":65,"visibility":10000,"wind_speed":2.89,"wind_deg":329,"wind_gust":7.74,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04n"}],"pop":0},{"dt":1660309200,"temp":75.27,"feels_like":74.14,"pressure":1016,"humidity":35,"dew_point":45.61,"uvi":0.24,"clouds":38,"visibility":10000,"wind_speed":1.68,"wind_deg":290,"wind_gust":5.23,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03d"}],"pop":0},{"dt":1660312800,"temp":77.97,"feels_like":76.98,"pressure":1016,"humidity":32,"dew_point":45.75,"uvi":1.03,"clouds":21,"visibility":10000,"wind_speed":2.44,"wind_deg":304,"wind_gust":8.3,"weather":[{"id":801,"main":"Clouds","description":"few
-        clouds","icon":"02d"}],"pop":0},{"dt":1660316400,"temp":80.83,"feels_like":79.63,"pressure":1015,"humidity":29,"dew_point":45.59,"uvi":2.63,"clouds":14,"visibility":10000,"wind_speed":5.03,"wind_deg":350,"wind_gust":9.33,"weather":[{"id":801,"main":"Clouds","description":"few
-        clouds","icon":"02d"}],"pop":0},{"dt":1660320000,"temp":82.96,"feels_like":80.94,"pressure":1015,"humidity":27,"dew_point":45.45,"uvi":4.92,"clouds":10,"visibility":10000,"wind_speed":6.11,"wind_deg":9,"wind_gust":8.97,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660323600,"temp":85.73,"feels_like":82.96,"pressure":1014,"humidity":25,"dew_point":46,"uvi":7.32,"clouds":8,"visibility":10000,"wind_speed":6.35,"wind_deg":12,"wind_gust":9.06,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660327200,"temp":88.61,"feels_like":85.35,"pressure":1013,"humidity":23,"dew_point":45.75,"uvi":9.16,"clouds":7,"visibility":10000,"wind_speed":6.53,"wind_deg":18,"wind_gust":6.98,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1660330800,"temp":91.58,"feels_like":87.87,"pressure":1013,"humidity":20,"dew_point":44.89,"uvi":9.87,"clouds":0,"visibility":10000,"wind_speed":4.92,"wind_deg":26,"wind_gust":4.72,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0}],"daily":[{"dt":1660158000,"sunrise":1660133246,"sunset":1660183395,"moonrise":1660182060,"moonset":1660125540,"moon_phase":0.45,"temp":{"day":92.34,"min":72.03,"max":93.11,"night":79.86,"eve":89.06,"morn":72.93},"feels_like":{"day":88.63,"night":79.86,"eve":85.46,"morn":71.91},"pressure":1017,"humidity":20,"dew_point":45.5,"wind_speed":15.26,"wind_deg":149,"wind_gust":26.55,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":10.15},{"dt":1660244400,"sunrise":1660219703,"sunset":1660269721,"moonrise":1660270980,"moonset":1660216620,"moon_phase":0.5,"temp":{"day":92.57,"min":73.02,"max":96.15,"night":81.05,"eve":90.82,"morn":73.54},"feels_like":{"day":88.61,"night":79.45,"eve":86.92,"morn":72.28},"pressure":1013,"humidity":18,"dew_point":43.25,"wind_speed":16.51,"wind_deg":147,"wind_gust":29.12,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":10.21},{"dt":1660330800,"sunrise":1660306160,"sunset":1660356045,"moonrise":1660359420,"moonset":1660307700,"moon_phase":0.53,"temp":{"day":91.58,"min":74.35,"max":95.16,"night":81.57,"eve":92.93,"morn":75.27},"feels_like":{"day":87.87,"night":80.19,"eve":88.74,"morn":74.14},"pressure":1013,"humidity":20,"dew_point":44.89,"wind_speed":7.96,"wind_deg":77,"wind_gust":10.85,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":0,"pop":0.07,"uvi":9.87},{"dt":1660417200,"sunrise":1660392618,"sunset":1660442368,"moonrise":1660447620,"moonset":1660398720,"moon_phase":0.56,"temp":{"day":90.57,"min":75.67,"max":96.12,"night":82.58,"eve":93.92,"morn":75.67},"feels_like":{"day":86.99,"night":81.18,"eve":89.82,"morn":74.71},"pressure":1013,"humidity":21,"dew_point":45.48,"wind_speed":7.65,"wind_deg":96,"wind_gust":8.95,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":0,"pop":0.23,"uvi":9.8},{"dt":1660503600,"sunrise":1660479075,"sunset":1660528690,"moonrise":1660535520,"moonset":1660489500,"moon_phase":0.6,"temp":{"day":90.55,"min":73.56,"max":96.4,"night":81.64,"eve":94.62,"morn":73.56},"feels_like":{"day":87.24,"night":80.4,"eve":90.39,"morn":72.64},"pressure":1010,"humidity":23,"dew_point":47.41,"wind_speed":15.97,"wind_deg":30,"wind_gust":27.18,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":3,"pop":0.23,"uvi":9.8},{"dt":1660590000,"sunrise":1660565532,"sunset":1660615011,"moonrise":1660623360,"moonset":1660580040,"moon_phase":0.64,"temp":{"day":87.62,"min":66.65,"max":93.81,"night":66.65,"eve":79.88,"morn":73.83},"feels_like":{"day":84.76,"night":66.58,"eve":79.88,"morn":72.9},"pressure":1009,"humidity":26,"dew_point":48.4,"wind_speed":20.36,"wind_deg":254,"wind_gust":31.5,"weather":[{"id":501,"main":"Rain","description":"moderate
-        rain","icon":"10d"}],"clouds":2,"pop":0.86,"rain":3.71,"uvi":10},{"dt":1660676400,"sunrise":1660651989,"sunset":1660701331,"moonrise":1660711260,"moonset":1660670520,"moon_phase":0.67,"temp":{"day":81.14,"min":66.16,"max":83.93,"night":67.73,"eve":72.75,"morn":66.16},"feels_like":{"day":80.65,"night":67.59,"eve":72.41,"morn":65.68},"pressure":1013,"humidity":39,"dew_point":53.67,"wind_speed":14.05,"wind_deg":168,"wind_gust":12.95,"weather":[{"id":501,"main":"Rain","description":"moderate
-        rain","icon":"10d"}],"clouds":60,"pop":1,"rain":6.41,"uvi":10},{"dt":1660762800,"sunrise":1660738446,"sunset":1660787650,"moonrise":1660799220,"moonset":1660760820,"moon_phase":0.7,"temp":{"day":78.12,"min":64.9,"max":85.12,"night":78.6,"eve":84.09,"morn":64.9},"feels_like":{"day":77.7,"night":77.67,"eve":81.57,"morn":64.94},"pressure":1015,"humidity":44,"dew_point":54.21,"wind_speed":13.76,"wind_deg":51,"wind_gust":15.84,"weather":[{"id":500,"main":"Rain","description":"light
-        rain","icon":"10d"}],"clouds":26,"pop":1,"rain":2.54,"uvi":10}]}'
-  recorded_at: Wed, 10 Aug 2022 20:23:41 GMT
+      string: '{"lat":39.7385,"lon":-104.9849,"timezone":"America/Denver","timezone_offset":-21600,"current":{"dt":1660184512,"sunrise":1660133246,"sunset":1660183395,"temp":83.71,"feels_like":82.09,"pressure":1016,"humidity":33,"dew_point":51.58,"uvi":0,"clouds":2,"visibility":10000,"wind_speed":7,"wind_deg":204,"wind_gust":15.01,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}]},"hourly":[{"dt":1660183200,"temp":83.71,"feels_like":82.09,"pressure":1016,"humidity":33,"dew_point":51.58,"uvi":0,"clouds":2,"visibility":10000,"wind_speed":14.34,"wind_deg":152,"wind_gust":17.98,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660186800,"temp":83.66,"feels_like":81.93,"pressure":1016,"humidity":32,"dew_point":50.7,"uvi":0,"clouds":2,"visibility":10000,"wind_speed":11.23,"wind_deg":154,"wind_gust":19.46,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660190400,"temp":82.4,"feels_like":81.14,"pressure":1016,"humidity":34,"dew_point":51.24,"uvi":0,"clouds":2,"visibility":10000,"wind_speed":13.53,"wind_deg":153,"wind_gust":25.3,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660194000,"temp":80.49,"feels_like":79.86,"pressure":1017,"humidity":35,"dew_point":50.36,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":16.67,"wind_deg":159,"wind_gust":29.89,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660197600,"temp":78.51,"feels_like":77.81,"pressure":1017,"humidity":37,"dew_point":50.11,"uvi":0,"clouds":2,"visibility":10000,"wind_speed":15.73,"wind_deg":169,"wind_gust":29.3,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660201200,"temp":76.5,"feels_like":75.69,"pressure":1017,"humidity":39,"dew_point":49.59,"uvi":0,"clouds":6,"visibility":10000,"wind_speed":12.77,"wind_deg":174,"wind_gust":27.25,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660204800,"temp":75.33,"feels_like":74.39,"pressure":1017,"humidity":39,"dew_point":48.9,"uvi":0,"clouds":3,"visibility":10000,"wind_speed":9.31,"wind_deg":185,"wind_gust":20.13,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660208400,"temp":74.5,"feels_like":73.47,"pressure":1017,"humidity":39,"dew_point":47.91,"uvi":0,"clouds":2,"visibility":10000,"wind_speed":6.51,"wind_deg":203,"wind_gust":11.18,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660212000,"temp":73.94,"feels_like":72.86,"pressure":1017,"humidity":39,"dew_point":47.05,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":4.25,"wind_deg":214,"wind_gust":6.71,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660215600,"temp":73.22,"feels_like":72.07,"pressure":1017,"humidity":39,"dew_point":46.54,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":3.4,"wind_deg":219,"wind_gust":4.68,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660219200,"temp":72.7,"feels_like":71.55,"pressure":1017,"humidity":40,"dew_point":46.22,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":2.46,"wind_deg":213,"wind_gust":2.98,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1660222800,"temp":73.06,"feels_like":71.89,"pressure":1017,"humidity":39,"dew_point":46.27,"uvi":0.26,"clouds":0,"visibility":10000,"wind_speed":2.77,"wind_deg":187,"wind_gust":3.6,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660226400,"temp":75.69,"feels_like":74.61,"pressure":1017,"humidity":35,"dew_point":45.95,"uvi":1.09,"clouds":0,"visibility":10000,"wind_speed":2.86,"wind_deg":169,"wind_gust":3.38,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660230000,"temp":79.27,"feels_like":79.27,"pressure":1017,"humidity":31,"dew_point":45.54,"uvi":2.76,"clouds":0,"visibility":10000,"wind_speed":2.17,"wind_deg":146,"wind_gust":2.3,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660233600,"temp":82.81,"feels_like":80.83,"pressure":1016,"humidity":27,"dew_point":45.36,"uvi":5.12,"clouds":0,"visibility":10000,"wind_speed":2.57,"wind_deg":96,"wind_gust":2.35,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660237200,"temp":86.2,"feels_like":83.28,"pressure":1015,"humidity":24,"dew_point":45.01,"uvi":7.61,"clouds":0,"visibility":10000,"wind_speed":3.42,"wind_deg":82,"wind_gust":3.38,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660240800,"temp":89.24,"feels_like":85.73,"pressure":1014,"humidity":21,"dew_point":44.65,"uvi":9.51,"clouds":0,"visibility":10000,"wind_speed":4.07,"wind_deg":75,"wind_gust":3.91,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660244400,"temp":92.12,"feels_like":88.29,"pressure":1013,"humidity":19,"dew_point":44.28,"uvi":10.21,"clouds":0,"visibility":10000,"wind_speed":4.09,"wind_deg":73,"wind_gust":3.6,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660248000,"temp":94.32,"feels_like":90.23,"pressure":1012,"humidity":17,"dew_point":42.17,"uvi":9.49,"clouds":0,"visibility":10000,"wind_speed":4.03,"wind_deg":92,"wind_gust":4.54,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660251600,"temp":95.2,"feels_like":90.7,"pressure":1010,"humidity":14,"dew_point":38.84,"uvi":7.6,"clouds":0,"visibility":10000,"wind_speed":7.27,"wind_deg":110,"wind_gust":8.41,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660255200,"temp":95.9,"feels_like":91.38,"pressure":1009,"humidity":14,"dew_point":38.88,"uvi":5.1,"clouds":0,"visibility":10000,"wind_speed":9.6,"wind_deg":121,"wind_gust":8.23,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660258800,"temp":95.07,"feels_like":90.7,"pressure":1009,"humidity":15,"dew_point":40.53,"uvi":2.75,"clouds":0,"visibility":10000,"wind_speed":11.9,"wind_deg":132,"wind_gust":7.85,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660262400,"temp":93.29,"feels_like":89.08,"pressure":1009,"humidity":16,"dew_point":41.52,"uvi":1.06,"clouds":0,"visibility":10000,"wind_speed":14.2,"wind_deg":142,"wind_gust":9.33,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660266000,"temp":90.75,"feels_like":86.85,"pressure":1009,"humidity":18,"dew_point":41.36,"uvi":0.25,"clouds":6,"visibility":10000,"wind_speed":16.2,"wind_deg":146,"wind_gust":14.72,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660269600,"temp":86.94,"feels_like":83.66,"pressure":1011,"humidity":21,"dew_point":42.24,"uvi":0,"clouds":50,"visibility":10000,"wind_speed":15.05,"wind_deg":151,"wind_gust":20.38,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0},{"dt":1660273200,"temp":84.85,"feels_like":82.02,"pressure":1012,"humidity":22,"dew_point":41.76,"uvi":0,"clouds":65,"visibility":10000,"wind_speed":13.6,"wind_deg":160,"wind_gust":23.67,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04n"}],"pop":0},{"dt":1660276800,"temp":82.4,"feels_like":80.29,"pressure":1013,"humidity":23,"dew_point":40.75,"uvi":0,"clouds":73,"visibility":10000,"wind_speed":12.06,"wind_deg":171,"wind_gust":26.75,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04n"}],"pop":0},{"dt":1660280400,"temp":80.71,"feels_like":79.3,"pressure":1013,"humidity":25,"dew_point":41.81,"uvi":0,"clouds":78,"visibility":10000,"wind_speed":9.84,"wind_deg":183,"wind_gust":18.86,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04n"}],"pop":0},{"dt":1660284000,"temp":79.88,"feels_like":79.88,"pressure":1014,"humidity":29,"dew_point":44.58,"uvi":0,"clouds":82,"visibility":10000,"wind_speed":7.07,"wind_deg":209,"wind_gust":11.32,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04n"}],"pop":0},{"dt":1660287600,"temp":78.84,"feels_like":78.84,"pressure":1014,"humidity":31,"dew_point":45.46,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":4.29,"wind_deg":219,"wind_gust":6.58,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1660291200,"temp":77.81,"feels_like":76.84,"pressure":1013,"humidity":33,"dew_point":46.13,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":1.99,"wind_deg":230,"wind_gust":5.46,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1660294800,"temp":76.71,"feels_like":75.69,"pressure":1014,"humidity":34,"dew_point":45.81,"uvi":0,"clouds":99,"visibility":10000,"wind_speed":1.5,"wind_deg":339,"wind_gust":5.5,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1660298400,"temp":75.85,"feels_like":74.73,"pressure":1014,"humidity":34,"dew_point":45.45,"uvi":0,"clouds":99,"visibility":10000,"wind_speed":1.68,"wind_deg":8,"wind_gust":3.6,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1660302000,"temp":75.15,"feels_like":74.01,"pressure":1014,"humidity":35,"dew_point":45.27,"uvi":0,"clouds":99,"visibility":10000,"wind_speed":1.05,"wind_deg":20,"wind_gust":3.02,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1660305600,"temp":74.28,"feels_like":73.09,"pressure":1015,"humidity":36,"dew_point":45.18,"uvi":0,"clouds":93,"visibility":10000,"wind_speed":0.27,"wind_deg":103,"wind_gust":1.81,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1660309200,"temp":74.82,"feels_like":73.65,"pressure":1016,"humidity":35,"dew_point":44.96,"uvi":0.24,"clouds":97,"visibility":10000,"wind_speed":0.29,"wind_deg":320,"wind_gust":1.97,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1660312800,"temp":76.95,"feels_like":75.85,"pressure":1016,"humidity":32,"dew_point":44.8,"uvi":1.03,"clouds":98,"visibility":10000,"wind_speed":0.51,"wind_deg":225,"wind_gust":2.13,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1660316400,"temp":79.97,"feels_like":79.97,"pressure":1015,"humidity":29,"dew_point":44.98,"uvi":2.63,"clouds":97,"visibility":10000,"wind_speed":0.81,"wind_deg":299,"wind_gust":3.6,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1660320000,"temp":83.35,"feels_like":81.16,"pressure":1015,"humidity":26,"dew_point":45.54,"uvi":4.92,"clouds":77,"visibility":10000,"wind_speed":3.18,"wind_deg":355,"wind_gust":6.24,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1660323600,"temp":86,"feels_like":83.1,"pressure":1014,"humidity":24,"dew_point":45.59,"uvi":7.32,"clouds":62,"visibility":10000,"wind_speed":5.82,"wind_deg":9,"wind_gust":7.74,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1660327200,"temp":88.63,"feels_like":85.26,"pressure":1013,"humidity":22,"dew_point":45.23,"uvi":9.16,"clouds":52,"visibility":10000,"wind_speed":6.51,"wind_deg":28,"wind_gust":6.29,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1660330800,"temp":91.15,"feels_like":87.44,"pressure":1013,"humidity":20,"dew_point":44.6,"uvi":9.87,"clouds":0,"visibility":10000,"wind_speed":5.37,"wind_deg":40,"wind_gust":4.92,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660334400,"temp":92.91,"feels_like":88.93,"pressure":1012,"humidity":18,"dew_point":43.29,"uvi":9.17,"clouds":0,"visibility":10000,"wind_speed":5.28,"wind_deg":58,"wind_gust":5.59,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660338000,"temp":93.96,"feels_like":89.73,"pressure":1010,"humidity":16,"dew_point":40.82,"uvi":7.33,"clouds":0,"visibility":10000,"wind_speed":6.11,"wind_deg":78,"wind_gust":4.85,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660341600,"temp":94.48,"feels_like":90.01,"pressure":1009,"humidity":14,"dew_point":39.2,"uvi":4.9,"clouds":0,"visibility":10000,"wind_speed":5.48,"wind_deg":89,"wind_gust":3.4,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660345200,"temp":94.53,"feels_like":90.07,"pressure":1009,"humidity":14,"dew_point":38.48,"uvi":2.64,"clouds":0,"visibility":10000,"wind_speed":5.06,"wind_deg":87,"wind_gust":3.04,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660348800,"temp":93.79,"feels_like":89.37,"pressure":1008,"humidity":14,"dew_point":38.16,"uvi":1.01,"clouds":1,"visibility":10000,"wind_speed":5.26,"wind_deg":92,"wind_gust":3.47,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1660352400,"temp":92.61,"feels_like":88.34,"pressure":1008,"humidity":15,"dew_point":38.37,"uvi":0.24,"clouds":5,"visibility":10000,"wind_speed":5.73,"wind_deg":93,"wind_gust":4.03,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0}],"daily":[{"dt":1660158000,"sunrise":1660133246,"sunset":1660183395,"moonrise":1660182060,"moonset":1660125540,"moon_phase":0.45,"temp":{"day":92.05,"min":72.03,"max":93.74,"night":80.49,"eve":84.58,"morn":72.93},"feels_like":{"day":87.89,"night":79.86,"eve":82.6,"morn":71.91},"pressure":1016,"humidity":16,"dew_point":39.96,"wind_speed":16.67,"wind_deg":159,"wind_gust":29.89,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":10.15},{"dt":1660244400,"sunrise":1660219703,"sunset":1660269721,"moonrise":1660270980,"moonset":1660216620,"moon_phase":0.5,"temp":{"day":92.12,"min":72.7,"max":95.9,"night":80.71,"eve":90.75,"morn":73.06},"feels_like":{"day":88.29,"night":79.3,"eve":86.85,"morn":71.89},"pressure":1013,"humidity":19,"dew_point":44.28,"wind_speed":16.2,"wind_deg":146,"wind_gust":29.3,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":10.21},{"dt":1660330800,"sunrise":1660306160,"sunset":1660356045,"moonrise":1660359420,"moonset":1660307700,"moon_phase":0.53,"temp":{"day":91.15,"min":74.28,"max":94.53,"night":80.83,"eve":92.61,"morn":74.82},"feels_like":{"day":87.44,"night":79.7,"eve":88.34,"morn":73.65},"pressure":1013,"humidity":20,"dew_point":44.6,"wind_speed":8.63,"wind_deg":345,"wind_gust":15.64,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":9.87},{"dt":1660417200,"sunrise":1660392618,"sunset":1660442368,"moonrise":1660447620,"moonset":1660398720,"moon_phase":0.56,"temp":{"day":89.06,"min":74.75,"max":94.89,"night":79.03,"eve":93.83,"morn":75.27},"feels_like":{"day":85.89,"night":79.03,"eve":89.73,"morn":74.28},"pressure":1013,"humidity":24,"dew_point":47.19,"wind_speed":10.58,"wind_deg":254,"wind_gust":15.41,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":3,"pop":0.31,"rain":0.26,"uvi":9.8},{"dt":1660503600,"sunrise":1660479075,"sunset":1660528690,"moonrise":1660535520,"moonset":1660489500,"moon_phase":0.6,"temp":{"day":89.73,"min":72.43,"max":89.73,"night":75.15,"eve":72.72,"morn":72.43},"feels_like":{"day":86.56,"night":74.43,"eve":72.23,"morn":71.73},"pressure":1010,"humidity":24,"dew_point":48.69,"wind_speed":22.19,"wind_deg":318,"wind_gust":27.49,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":2,"pop":0.64,"rain":1.97,"uvi":9.8},{"dt":1660590000,"sunrise":1660565532,"sunset":1660615011,"moonrise":1660623360,"moonset":1660580040,"moon_phase":0.64,"temp":{"day":85.98,"min":70.38,"max":92.01,"night":70.38,"eve":75.04,"morn":71.15},"feels_like":{"day":83.73,"night":69.89,"eve":74.79,"morn":70.41},"pressure":1011,"humidity":30,"dew_point":50.63,"wind_speed":17.4,"wind_deg":353,"wind_gust":24.25,"weather":[{"id":502,"main":"Rain","description":"heavy
+        intensity rain","icon":"10d"}],"clouds":45,"pop":1,"rain":14.57,"uvi":10},{"dt":1660676400,"sunrise":1660651989,"sunset":1660701331,"moonrise":1660711260,"moonset":1660670520,"moon_phase":0.67,"temp":{"day":77.52,"min":63.37,"max":83.7,"night":63.37,"eve":82.4,"morn":64.78},"feels_like":{"day":77.18,"night":63.64,"eve":81.79,"morn":64.58},"pressure":1015,"humidity":47,"dew_point":55.35,"wind_speed":8.48,"wind_deg":23,"wind_gust":11.14,"weather":[{"id":502,"main":"Rain","description":"heavy
+        intensity rain","icon":"10d"}],"clouds":39,"pop":1,"rain":28.56,"uvi":10},{"dt":1660762800,"sunrise":1660738446,"sunset":1660787650,"moonrise":1660799220,"moonset":1660760820,"moon_phase":0.7,"temp":{"day":76.66,"min":61.36,"max":78.15,"night":61.36,"eve":78.15,"morn":64.44},"feels_like":{"day":76.42,"night":61.61,"eve":77.97,"morn":64.44},"pressure":1015,"humidity":51,"dew_point":56.79,"wind_speed":7.25,"wind_deg":70,"wind_gust":10.74,"weather":[{"id":502,"main":"Rain","description":"heavy
+        intensity rain","icon":"10d"}],"clouds":68,"pop":1,"rain":37.5,"uvi":10}]}'
+  recorded_at: Thu, 11 Aug 2022 02:21:52 GMT
 - request:
     method: get
     uri: https://api.yelp.com/v3/businesses/search?location=denver,%20co&term=pizza
@@ -176,38 +176,38 @@ http_interactions:
       - keep-alive
       Content-Type:
       - application/json
-      Server:
-      - envoy
-      X-Zipkin-Id:
-      - 8f3bc19c56ddac22
       X-Routing-Service:
-      - routing-main--uswest2-77d4785ff7-44kws; site=public_api_v3
-      X-B3-Sampled:
-      - '0'
+      - routing-main--uswest2-77d4785ff7-742mw; site=public_api_v3
+      X-Zipkin-Id:
+      - bc83ba64011b45e2
       Ratelimit-Dailylimit:
       - '5000'
+      X-B3-Sampled:
+      - '0'
       Ratelimit-Remaining:
-      - '4972'
+      - '4996'
+      Server:
+      - envoy
       Ratelimit-Resettime:
-      - '2022-08-11T00:00:00+00:00'
+      - '2022-08-12T00:00:00+00:00'
       X-Cloudmap:
       - routing_uswest2
       X-Mode:
       - ro
       X-Proxied:
-      - 10-69-69-73-uswest2aprod
+      - 10-69-126-17-uswest2aprod
       X-Extlb:
-      - 10-69-69-73-uswest2aprod
+      - 10-69-126-17-uswest2aprod
       Cache-Control:
       - max-age=0, no-store, private, no-transform
       Accept-Ranges:
       - bytes
       Date:
-      - Wed, 10 Aug 2022 20:23:41 GMT
+      - Thu, 11 Aug 2022 02:21:53 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8221-DEN
+      - cache-den8257-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -218,19 +218,8 @@ http_interactions:
       - chunked
     body:
       encoding: ASCII-8BIT
-      string: '{"businesses": [{"id": "VFACYV_lGv9y4FV-_1m4Ig", "alias": "brooklyns-finest-pizza-lowell-denver",
-        "name": "Brooklyn''s Finest Pizza - Lowell", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/6cPY-ZzCjPdyI_F_zOtsHA/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/brooklyns-finest-pizza-lowell-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
-        "review_count": 463, "categories": [{"alias": "pizza", "title": "Pizza"},
-        {"alias": "italian", "title": "Italian"}, {"alias": "sandwiches", "title":
-        "Sandwiches"}], "rating": 4.5, "coordinates": {"latitude": 39.7875680710371,
-        "longitude": -105.035032358198}, "transactions": ["delivery", "pickup"], "price":
-        "$$", "location": {"address1": "5007 Lowell Blvd", "address2": "", "address3":
-        "", "city": "Denver", "zip_code": "80221", "country": "US", "state": "CO",
-        "display_address": ["5007 Lowell Blvd", "Denver, CO 80221"]}, "phone": "+13034770066",
-        "display_phone": "(303) 477-0066", "distance": 8009.779308214767}, {"id":
-        "n18mJPI6mQfBJEp8UrITyw", "alias": "blue-pan-pizza-denver-4", "name": "Blue
-        Pan Pizza", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/EAkVmoSTsGkaq8WvDFpPDg/o.jpg",
+      string: '{"businesses": [{"id": "n18mJPI6mQfBJEp8UrITyw", "alias": "blue-pan-pizza-denver-4",
+        "name": "Blue Pan Pizza", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/EAkVmoSTsGkaq8WvDFpPDg/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/blue-pan-pizza-denver-4?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
         "review_count": 571, "categories": [{"alias": "pizza", "title": "Pizza"},
         {"alias": "italian", "title": "Italian"}], "rating": 4.5, "coordinates": {"latitude":
@@ -239,23 +228,33 @@ http_interactions:
         null, "city": "Denver", "zip_code": "80206", "country": "US", "state": "CO",
         "display_address": ["3509 E 12th Ave", "Denver, CO 80206"]}, "phone": "+17205190944",
         "display_phone": "(720) 519-0944", "distance": 2088.4295572003557}, {"id":
-        "B_1cqks5CI5N_viXXLuLWg", "alias": "brooklyns-finest-pizza-denver-3", "name":
-        "Brooklyn''s Finest Pizza", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/KZf9Qbcnh5hWCak5qEybog/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/brooklyns-finest-pizza-denver-3?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
-        "review_count": 165, "categories": [{"alias": "pizza", "title": "Pizza"},
+        "Yk84dALUw0TPPf9sMuu2hg", "alias": "redeemer-pizza-denver", "name": "Redeemer
+        Pizza", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/tmZdbkbfJ_qDmYzf6j8_0A/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/redeemer-pizza-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 64, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.75975, "longitude": -104.98405},
+        "transactions": [], "location": {"address1": "2705 Larimer St", "address2":
+        null, "address3": "", "city": "Denver", "zip_code": "80205", "country": "US",
+        "state": "CO", "display_address": ["2705 Larimer St", "Denver, CO 80205"]},
+        "phone": "+17207801379", "display_phone": "(720) 780-1379", "distance": 2945.6612921175247},
+        {"id": "VFACYV_lGv9y4FV-_1m4Ig", "alias": "brooklyns-finest-pizza-lowell-denver",
+        "name": "Brooklyn''s Finest Pizza - Lowell", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/6cPY-ZzCjPdyI_F_zOtsHA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/brooklyns-finest-pizza-lowell-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 463, "categories": [{"alias": "pizza", "title": "Pizza"},
         {"alias": "italian", "title": "Italian"}, {"alias": "sandwiches", "title":
-        "Sandwiches"}], "rating": 4.5, "coordinates": {"latitude": 39.746419, "longitude":
-        -104.993448}, "transactions": ["delivery", "pickup"], "price": "$", "location":
-        {"address1": "825 16th St Mall", "address2": "", "address3": null, "city":
-        "Denver", "zip_code": "80202", "country": "US", "state": "CO", "display_address":
-        ["825 16th St Mall", "Denver, CO 80202"]}, "phone": "+13035733779", "display_phone":
-        "(303) 573-3779", "distance": 2324.517743583711}, {"id": "kI5oOBAGS-Vo4chwmgOVmQ",
-        "alias": "cart-driver-denver", "name": "Cart-Driver", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DiP3VXc3oveV8VXxZESztQ/o.jpg",
+        "Sandwiches"}], "rating": 4.5, "coordinates": {"latitude": 39.7875680710371,
+        "longitude": -105.035032358198}, "transactions": ["pickup", "delivery"], "price":
+        "$$", "location": {"address1": "5007 Lowell Blvd", "address2": "", "address3":
+        "", "city": "Denver", "zip_code": "80221", "country": "US", "state": "CO",
+        "display_address": ["5007 Lowell Blvd", "Denver, CO 80221"]}, "phone": "+13034770066",
+        "display_phone": "(303) 477-0066", "distance": 8009.779308214767}, {"id":
+        "kI5oOBAGS-Vo4chwmgOVmQ", "alias": "cart-driver-denver", "name": "Cart-Driver",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DiP3VXc3oveV8VXxZESztQ/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/cart-driver-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
         "review_count": 564, "categories": [{"alias": "pizza", "title": "Pizza"},
         {"alias": "italian", "title": "Italian"}, {"alias": "bars", "title": "Bars"}],
         "rating": 4.5, "coordinates": {"latitude": 39.7575443618608, "longitude":
-        -104.98618460866}, "transactions": ["delivery", "pickup"], "price": "$$",
+        -104.98618460866}, "transactions": ["pickup", "delivery"], "price": "$$",
         "location": {"address1": "2500 Larimer St", "address2": "Ste 100", "address3":
         "", "city": "Denver", "zip_code": "80205", "country": "US", "state": "CO",
         "display_address": ["2500 Larimer St", "Ste 100", "Denver, CO 80205"]}, "phone":
@@ -265,23 +264,25 @@ http_interactions:
         "is_closed": false, "url": "https://www.yelp.com/biz/white-pie-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
         "review_count": 357, "categories": [{"alias": "pizza", "title": "Pizza"},
         {"alias": "wine_bars", "title": "Wine Bars"}], "rating": 4.5, "coordinates":
-        {"latitude": 39.74348039, "longitude": -104.96942428}, "transactions": ["delivery",
-        "pickup"], "price": "$$", "location": {"address1": "1702 Humboldt St", "address2":
+        {"latitude": 39.74348039, "longitude": -104.96942428}, "transactions": ["pickup",
+        "delivery"], "price": "$$", "location": {"address1": "1702 Humboldt St", "address2":
         null, "address3": "", "city": "Denver", "zip_code": "80218", "country": "US",
         "state": "CO", "display_address": ["1702 Humboldt St", "Denver, CO 80218"]},
         "phone": "+13038625323", "display_phone": "(303) 862-5323", "distance": 887.4669172893492},
-        {"id": "Yk84dALUw0TPPf9sMuu2hg", "alias": "redeemer-pizza-denver", "name":
-        "Redeemer Pizza", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/tmZdbkbfJ_qDmYzf6j8_0A/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/redeemer-pizza-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
-        "review_count": 64, "categories": [{"alias": "pizza", "title": "Pizza"}],
-        "rating": 4.5, "coordinates": {"latitude": 39.75975, "longitude": -104.98405},
-        "transactions": [], "location": {"address1": "2705 Larimer St", "address2":
-        null, "address3": "", "city": "Denver", "zip_code": "80205", "country": "US",
-        "state": "CO", "display_address": ["2705 Larimer St", "Denver, CO 80205"]},
-        "phone": "+17207801379", "display_phone": "(720) 780-1379", "distance": 2945.6612921175247},
-        {"id": "ofPa6i98oFCiq0zoWj1cvw", "alias": "black-shirt-brewing-denver-5",
-        "name": "Black Shirt Brewing", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/QaIGFcvAJuHX2ruIS2n8nA/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/black-shirt-brewing-denver-5?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        {"id": "B_1cqks5CI5N_viXXLuLWg", "alias": "brooklyns-finest-pizza-denver-3",
+        "name": "Brooklyn''s Finest Pizza", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/KZf9Qbcnh5hWCak5qEybog/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/brooklyns-finest-pizza-denver-3?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 165, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}, {"alias": "sandwiches", "title":
+        "Sandwiches"}], "rating": 4.5, "coordinates": {"latitude": 39.746419, "longitude":
+        -104.993448}, "transactions": ["pickup", "delivery"], "price": "$", "location":
+        {"address1": "825 16th St Mall", "address2": "", "address3": null, "city":
+        "Denver", "zip_code": "80202", "country": "US", "state": "CO", "display_address":
+        ["825 16th St Mall", "Denver, CO 80202"]}, "phone": "+13035733779", "display_phone":
+        "(303) 573-3779", "distance": 2324.517743583711}, {"id": "ofPa6i98oFCiq0zoWj1cvw",
+        "alias": "black-shirt-brewing-denver-5", "name": "Black Shirt Brewing", "image_url":
+        "https://s3-media1.fl.yelpcdn.com/bphoto/QaIGFcvAJuHX2ruIS2n8nA/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/black-shirt-brewing-denver-5?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
         "review_count": 384, "categories": [{"alias": "breweries", "title": "Breweries"},
         {"alias": "pizza", "title": "Pizza"}, {"alias": "musicvenues", "title": "Music
         Venues"}], "rating": 4.5, "coordinates": {"latitude": 39.7697672895761, "longitude":
@@ -289,20 +290,8 @@ http_interactions:
         {"address1": "3719 Walnut St", "address2": "", "address3": "", "city": "Denver",
         "zip_code": "80205", "country": "US", "state": "CO", "display_address": ["3719
         Walnut St", "Denver, CO 80205"]}, "phone": "+13039932799", "display_phone":
-        "(303) 993-2799", "distance": 3814.589261976626}, {"id": "i8VF3q7dTszCcigJSMcJzQ",
-        "alias": "angelo-s-taverna-denver", "name": "Angelo\u2019s Taverna", "image_url":
-        "https://s3-media2.fl.yelpcdn.com/bphoto/nrWS_kPhlGofYXQaiHE8Jg/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/angelo-s-taverna-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
-        "review_count": 1404, "categories": [{"alias": "italian", "title": "Italian"},
-        {"alias": "seafood", "title": "Seafood"}, {"alias": "bars", "title": "Bars"}],
-        "rating": 4.5, "coordinates": {"latitude": 39.725523, "longitude": -104.979224},
-        "transactions": ["restaurant_reservation", "delivery", "pickup"], "price":
-        "$$", "location": {"address1": "620 E 6th Ave", "address2": "", "address3":
-        "", "city": "Denver", "zip_code": "80203", "country": "US", "state": "CO",
-        "display_address": ["620 E 6th Ave", "Denver, CO 80203"]}, "phone": "+13037443366",
-        "display_phone": "(303) 744-3366", "distance": 1351.3929919123793}, {"id":
-        "ptB6HgdWa_elXZFoSc4LIA", "alias": "blue-pan-pizza-denver", "name": "Blue
-        Pan Pizza", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/wCVbOk7-bF1yYeqoNFsjvw/o.jpg",
+        "(303) 993-2799", "distance": 3814.589261976626}, {"id": "ptB6HgdWa_elXZFoSc4LIA",
+        "alias": "blue-pan-pizza-denver", "name": "Blue Pan Pizza", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/wCVbOk7-bF1yYeqoNFsjvw/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/blue-pan-pizza-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
         "review_count": 718, "categories": [{"alias": "pizza", "title": "Pizza"}],
         "rating": 4.5, "coordinates": {"latitude": 39.761971, "longitude": -105.038949},
@@ -310,18 +299,20 @@ http_interactions:
         W 32nd Ave", "address2": "", "address3": "", "city": "Denver", "zip_code":
         "80212", "country": "US", "state": "CO", "display_address": ["3934 W 32nd
         Ave", "Denver, CO 80212"]}, "phone": "+17204567666", "display_phone": "(720)
-        456-7666", "distance": 6565.813797679674}, {"id": "wyMZT_l_hj17XW4IDhQFew",
-        "alias": "goombas-pizza-grinder-colfax-denver", "name": "Goombas Pizza Grinder
-        Colfax", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/2ax72CGPmPMFDyDgbWeUZw/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/goombas-pizza-grinder-colfax-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
-        "review_count": 64, "categories": [{"alias": "pizza", "title": "Pizza"}],
-        "rating": 4.5, "coordinates": {"latitude": 39.74004, "longitude": -104.9521199},
-        "transactions": ["delivery", "pickup"], "price": "$$", "location": {"address1":
-        "2934 E Colfax Ave", "address2": null, "address3": "", "city": "Denver", "zip_code":
-        "80206", "country": "US", "state": "CO", "display_address": ["2934 E Colfax
-        Ave", "Denver, CO 80206"]}, "phone": "+17205423605", "display_phone": "(720)
-        542-3605", "distance": 1622.464168037304}, {"id": "7Wb-Y0dxakfRkLTAIG4Bmw",
-        "alias": "hops-and-pie-denver", "name": "Hops & Pie", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/wGt9utN2rsZ9aLvyfxysEQ/o.jpg",
+        456-7666", "distance": 6565.813797679674}, {"id": "i8VF3q7dTszCcigJSMcJzQ",
+        "alias": "angelo-s-taverna-denver", "name": "Angelo\u2019s Taverna", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/nrWS_kPhlGofYXQaiHE8Jg/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/angelo-s-taverna-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 1403, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "seafood", "title": "Seafood"}, {"alias": "bars", "title": "Bars"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.725523, "longitude": -104.979224},
+        "transactions": ["pickup", "delivery", "restaurant_reservation"], "price":
+        "$$", "location": {"address1": "620 E 6th Ave", "address2": "", "address3":
+        "", "city": "Denver", "zip_code": "80203", "country": "US", "state": "CO",
+        "display_address": ["620 E 6th Ave", "Denver, CO 80203"]}, "phone": "+13037443366",
+        "display_phone": "(303) 744-3366", "distance": 1351.3929919123793}, {"id":
+        "7Wb-Y0dxakfRkLTAIG4Bmw", "alias": "hops-and-pie-denver", "name": "Hops &
+        Pie", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/wGt9utN2rsZ9aLvyfxysEQ/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/hops-and-pie-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
         "review_count": 1017, "categories": [{"alias": "pizza", "title": "Pizza"},
         {"alias": "beerbar", "title": "Beer Bar"}, {"alias": "sandwiches", "title":
@@ -330,49 +321,17 @@ http_interactions:
         "3920 Tennyson St", "address2": "", "address3": "", "city": "Denver", "zip_code":
         "80212", "country": "US", "state": "CO", "display_address": ["3920 Tennyson
         St", "Denver, CO 80212"]}, "phone": "+13034777000", "display_phone": "(303)
-        477-7000", "distance": 7441.050322937775}, {"id": "ifFJPXzMMPMDn-RbXrcnjw",
-        "alias": "patxis-pizza-denver-5", "name": "Patxi''s Pizza", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/c8Wh43BxSCqZOXUshfS-oQ/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/patxis-pizza-denver-5?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
-        "review_count": 459, "categories": [{"alias": "pizza", "title": "Pizza"},
-        {"alias": "salad", "title": "Salad"}, {"alias": "italian", "title": "Italian"}],
-        "rating": 4.0, "coordinates": {"latitude": 39.74304, "longitude": -104.96859},
-        "transactions": ["delivery", "pickup"], "price": "$$", "location": {"address1":
-        "1598 E 17th Ave", "address2": null, "address3": "", "city": "Denver", "zip_code":
-        "80218", "country": "US", "state": "CO", "display_address": ["1598 E 17th
-        Ave", "Denver, CO 80218"]}, "phone": "+13038328000", "display_phone": "(303)
-        832-8000", "distance": 852.7251908173092}, {"id": "mmz8zURQXK4ijOYkK1qBTg",
-        "alias": "pizzeria-lui-lakewood", "name": "Pizzeria Lui", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/UwC9NUJkFAzMBSt8HSuiDg/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/pizzeria-lui-lakewood?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
-        "review_count": 294, "categories": [{"alias": "pizza", "title": "Pizza"}],
-        "rating": 4.5, "coordinates": {"latitude": 39.6965331421814, "longitude":
-        -105.056310072541}, "transactions": ["delivery"], "price": "$$", "location":
-        {"address1": "5380 W Mississippi Ave", "address2": "", "address3": null, "city":
-        "Lakewood", "zip_code": "80226", "country": "US", "state": "CO", "display_address":
-        ["5380 W Mississippi Ave", "Lakewood, CO 80226"]}, "phone": "+13039223202",
-        "display_phone": "(303) 922-3202", "distance": 8543.285120866152}, {"id":
-        "V4K--8TIaM3iNxy85nELVw", "alias": "sliceworks-denver", "name": "Sliceworks",
-        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DRm7B-Brk3jhMrQ20tvNdw/o.jpg",
+        477-7000", "distance": 7441.050322937775}, {"id": "V4K--8TIaM3iNxy85nELVw",
+        "alias": "sliceworks-denver", "name": "Sliceworks", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DRm7B-Brk3jhMrQ20tvNdw/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/sliceworks-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
         "review_count": 575, "categories": [{"alias": "pizza", "title": "Pizza"}],
         "rating": 4.0, "coordinates": {"latitude": 39.73973, "longitude": -104.97843},
-        "transactions": ["delivery", "pickup"], "price": "$", "location": {"address1":
+        "transactions": ["pickup", "delivery"], "price": "$", "location": {"address1":
         "700 E Colfax Ave", "address2": null, "address3": "", "city": "Denver", "zip_code":
         "80203", "country": "US", "state": "CO", "display_address": ["700 E Colfax
         Ave", "Denver, CO 80203"]}, "phone": "+13039938127", "display_phone": "(303)
-        993-8127", "distance": 859.4707106319526}, {"id": "GxOY6UbP_ZkofX9n4XvKKQ",
-        "alias": "grabowskis-pizzeria-denver", "name": "Grabowski''s Pizzeria", "image_url":
-        "https://s3-media2.fl.yelpcdn.com/bphoto/Tvgef2GoBKMCxMNKPW1KAA/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/grabowskis-pizzeria-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
-        "review_count": 115, "categories": [{"alias": "pizza", "title": "Pizza"},
-        {"alias": "beerbar", "title": "Beer Bar"}, {"alias": "sandwiches", "title":
-        "Sandwiches"}], "rating": 4.0, "coordinates": {"latitude": 39.768611817712745,
-        "longitude": -104.97975737363939}, "transactions": ["delivery", "pickup"],
-        "price": "$$", "location": {"address1": "3350 Brighton Blvd", "address2":
-        null, "address3": "", "city": "Denver", "zip_code": "80216", "country": "US",
-        "state": "CO", "display_address": ["3350 Brighton Blvd", "Denver, CO 80216"]},
-        "phone": "+17202079615", "display_phone": "(720) 207-9615", "distance": 3767.961548895925},
-        {"id": "RtbHHTs4vdKUJdVQAGrwfw", "alias": "sliceworks-denver-2", "name": "Sliceworks",
-        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/vsGs2ovjO_TgZgG5rg31Zg/o.jpg",
+        993-8127", "distance": 859.4707106319526}, {"id": "RtbHHTs4vdKUJdVQAGrwfw",
+        "alias": "sliceworks-denver-2", "name": "Sliceworks", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/vsGs2ovjO_TgZgG5rg31Zg/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/sliceworks-denver-2?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
         "review_count": 540, "categories": [{"alias": "pizza", "title": "Pizza"},
         {"alias": "italian", "title": "Italian"}], "rating": 4.0, "coordinates": {"latitude":
@@ -381,48 +340,87 @@ http_interactions:
         "", "city": "Denver", "zip_code": "80202", "country": "US", "state": "CO",
         "display_address": ["1433 17th St", "Ste 100", "Denver, CO 80202"]}, "phone":
         "+13032973464", "display_phone": "(303) 297-3464", "distance": 2930.7842487114535},
-        {"id": "G6DrSHGdQMETDdSXUvylRw", "alias": "ritual-social-house-denver", "name":
-        "Ritual Social House", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/nUv8pWQT0O2rcwzyUOox3Q/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/ritual-social-house-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
-        "review_count": 132, "categories": [{"alias": "pizza", "title": "Pizza"}],
-        "rating": 4.0, "coordinates": {"latitude": 39.73699, "longitude": -104.97265},
-        "transactions": ["delivery", "pickup"], "price": "$$", "location": {"address1":
-        "1209 E 13th Ave", "address2": null, "address3": "", "city": "Denver", "zip_code":
-        "80218", "country": "US", "state": "CO", "display_address": ["1209 E 13th
-        Ave", "Denver, CO 80218"]}, "phone": "+13038624566", "display_phone": "(303)
-        862-4566", "distance": 266.5386885877147}, {"id": "wWnBybKYcWsco4nVQ0GqJg",
-        "alias": "walters303-uptown-denver-6", "name": "Walters303 - Uptown", "image_url":
-        "https://s3-media4.fl.yelpcdn.com/bphoto/Kwl8DWgNYSkiw2vVWX94VQ/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/walters303-uptown-denver-6?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        {"id": "wWnBybKYcWsco4nVQ0GqJg", "alias": "walters303-uptown-denver-6", "name":
+        "Walters303 - Uptown", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Kwl8DWgNYSkiw2vVWX94VQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/walters303-uptown-denver-6?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
         "review_count": 379, "categories": [{"alias": "pizza", "title": "Pizza"},
         {"alias": "beerbar", "title": "Beer Bar"}, {"alias": "chicken_wings", "title":
         "Chicken Wings"}], "rating": 4.0, "coordinates": {"latitude": 39.746279, "longitude":
-        -104.979774}, "transactions": ["delivery", "pickup"], "price": "$$", "location":
+        -104.979774}, "transactions": ["pickup", "delivery"], "price": "$$", "location":
         {"address1": "1906 Pearl St", "address2": "", "address3": "", "city": "Denver",
         "zip_code": "80203", "country": "US", "state": "CO", "display_address": ["1906
         Pearl St", "Denver, CO 80203"]}, "phone": "+13038649000", "display_phone":
-        "(303) 864-9000", "distance": 1447.0291491654039}, {"id": "4LSF_BgZdsNTWr-nqHBeow",
-        "alias": "sexy-pizza-denver", "name": "Sexy Pizza", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/IUEZlRzsh8CM6AH8VB19cw/o.jpg",
+        "(303) 864-9000", "distance": 1447.0291491654039}, {"id": "G6DrSHGdQMETDdSXUvylRw",
+        "alias": "ritual-social-house-denver", "name": "Ritual Social House", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/nUv8pWQT0O2rcwzyUOox3Q/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/ritual-social-house-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 132, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.73699, "longitude": -104.97265},
+        "transactions": ["pickup", "delivery"], "price": "$$", "location": {"address1":
+        "1209 E 13th Ave", "address2": null, "address3": "", "city": "Denver", "zip_code":
+        "80218", "country": "US", "state": "CO", "display_address": ["1209 E 13th
+        Ave", "Denver, CO 80218"]}, "phone": "+13038624566", "display_phone": "(303)
+        862-4566", "distance": 266.5386885877147}, {"id": "O0naNbBI7QmrJrCS5u7vYA",
+        "alias": "benzina-denver-2", "name": "Benzina", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/NGNxZonltwkx6XJupgPcBQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/benzina-denver-2?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 70, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "pizza", "title": "Pizza"}], "rating": 4.5, "coordinates": {"latitude":
+        39.74046113597567, "longitude": -104.9313793}, "transactions": [], "price":
+        "$$$", "location": {"address1": "4839 E Colfax Ave", "address2": "", "address3":
+        null, "city": "Denver", "zip_code": "80220", "country": "US", "state": "CO",
+        "display_address": ["4839 E Colfax Ave", "Denver, CO 80220"]}, "phone": "+13033992352",
+        "display_phone": "(303) 399-2352", "distance": 3368.321014284191}, {"id":
+        "4LSF_BgZdsNTWr-nqHBeow", "alias": "sexy-pizza-denver", "name": "Sexy Pizza",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/IUEZlRzsh8CM6AH8VB19cw/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/sexy-pizza-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
         "review_count": 564, "categories": [{"alias": "pizza", "title": "Pizza"}],
         "rating": 3.5, "coordinates": {"latitude": 39.73355, "longitude": -104.97483},
-        "transactions": ["delivery", "pickup"], "price": "$", "location": {"address1":
+        "transactions": ["pickup", "delivery"], "price": "$", "location": {"address1":
         "1018 E 11th Ave", "address2": "", "address3": "", "city": "Denver", "zip_code":
         "80218", "country": "US", "state": "CO", "display_address": ["1018 E 11th
         Ave", "Denver, CO 80218"]}, "phone": "+13038308111", "display_phone": "(303)
-        830-8111", "distance": 448.7273085594925}, {"id": "-5iF6s8wJbGd9R2CVd5bvg",
-        "alias": "walters303-lowry-denver-5", "name": "Walter''s303 - Lowry", "image_url":
-        "https://s3-media2.fl.yelpcdn.com/bphoto/GiYhh7AXWKOc5eaUZMUreQ/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/walters303-lowry-denver-5?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
-        "review_count": 119, "categories": [{"alias": "pizza", "title": "Pizza"},
-        {"alias": "chicken_wings", "title": "Chicken Wings"}, {"alias": "bars", "title":
-        "Bars"}], "rating": 4.5, "coordinates": {"latitude": 39.7201329769283, "longitude":
-        -104.902422353625}, "transactions": ["delivery", "pickup"], "price": "$$",
-        "location": {"address1": "200 Quebec St", "address2": "Ste 109", "address3":
-        "", "city": "Denver", "zip_code": "80230", "country": "US", "state": "CO",
-        "display_address": ["200 Quebec St", "Ste 109", "Denver, CO 80230"]}, "phone":
-        "+13032842066", "display_phone": "(303) 284-2066", "distance": 6047.360139225128}],
-        "total": 2000, "region": {"center": {"longitude": -104.97024536132812, "latitude":
+        830-8111", "distance": 448.7273085594925}, {"id": "BSqByGxmYdGNqXINjLeKDg",
+        "alias": "famous-original-js-pizza-denver", "name": "Famous Original J''s
+        Pizza", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/xP_xhmxwm1QZfsteh6m5gg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/famous-original-js-pizza-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 125, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "vegan", "title": "Vegan"}, {"alias": "gluten_free", "title": "Gluten-Free"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.75481, "longitude": -104.97756},
+        "transactions": ["pickup", "delivery"], "price": "$", "location": {"address1":
+        "715 E 26th Ave", "address2": null, "address3": "", "city": "Denver", "zip_code":
+        "80205", "country": "US", "state": "CO", "display_address": ["715 E 26th Ave",
+        "Denver, CO 80205"]}, "phone": "+17204209102", "display_phone": "(720) 420-9102",
+        "distance": 2230.5377793425637}, {"id": "TLRubnPKDtupzFF58prF3A", "alias":
+        "enzos-end-pizzeria-denver", "name": "Enzo''s End Pizzeria", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/i4jH-KeZ8DJUNtAq52W8PQ/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/enzos-end-pizzeria-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 209, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.73996, "longitude": -104.94668},
+        "transactions": [], "price": "$$", "location": {"address1": "3424 E Colfax
+        Ave", "address2": "", "address3": "", "city": "Denver", "zip_code": "80206",
+        "country": "US", "state": "CO", "display_address": ["3424 E Colfax Ave", "Denver,
+        CO 80206"]}, "phone": "+13033554700", "display_phone": "(303) 355-4700", "distance":
+        2074.285611877512}, {"id": "HV3M2p6ksP1xbptoQ7PlBg", "alias": "10-barrel-brewing-denver-denver",
+        "name": "10 Barrel Brewing - Denver", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/zoZw2fFOuRsoKIYrm9voAQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/10-barrel-brewing-denver-denver?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 445, "categories": [{"alias": "brewpubs", "title": "Brewpubs"},
+        {"alias": "tradamerican", "title": "American (Traditional)"}, {"alias": "pizza",
+        "title": "Pizza"}], "rating": 4.5, "coordinates": {"latitude": 39.75939, "longitude":
+        -104.9856446}, "transactions": ["pickup", "delivery"], "price": "$$", "location":
+        {"address1": "2620 Walnut St", "address2": "", "address3": null, "city": "Denver",
+        "zip_code": "80205", "country": "US", "state": "CO", "display_address": ["2620
+        Walnut St", "Denver, CO 80205"]}, "phone": "+17205738992", "display_phone":
+        "(720) 573-8992", "distance": 2962.380230454709}, {"id": "mmz8zURQXK4ijOYkK1qBTg",
+        "alias": "pizzeria-lui-lakewood", "name": "Pizzeria Lui", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/UwC9NUJkFAzMBSt8HSuiDg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/pizzeria-lui-lakewood?adjust_creative=Tf5bifDwn5MzpZoNXp4mfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Tf5bifDwn5MzpZoNXp4mfg",
+        "review_count": 294, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.6965331421814, "longitude":
+        -105.056310072541}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "5380 W Mississippi Ave", "address2": "", "address3": null, "city":
+        "Lakewood", "zip_code": "80226", "country": "US", "state": "CO", "display_address":
+        ["5380 W Mississippi Ave", "Lakewood, CO 80226"]}, "phone": "+13039223202",
+        "display_phone": "(303) 922-3202", "distance": 8543.285120866152}], "total":
+        2000, "region": {"center": {"longitude": -104.97024536132812, "latitude":
         39.73552421220229}}}'
-  recorded_at: Wed, 10 Aug 2022 20:23:41 GMT
+  recorded_at: Thu, 11 Aug 2022 02:21:53 GMT
 recorded_with: VCR 6.1.0

@@ -11,6 +11,6 @@ RSpec.describe MapquestFacade do
   it 'can get directions', :vcr do
     directions = MapquestFacade.eta("denver, co", "pueblo, co")
 
-    expect(directions).to eq("01:45:23")
+    expect(directions).to eq(1)
   end
 end
